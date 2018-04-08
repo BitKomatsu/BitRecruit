@@ -1,0 +1,112 @@
+<!DECTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>(仮)BITリクルートサイト</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
+    	<script type="text/javascript">
+			$(document).ready(function(){
+				$('.bxslider').bxSlider({
+					auto: true,
+					speed: 500,
+					pause: 4000
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$(function(){
+			  $("#toggle").click(function(){
+			    $(".menu").slideToggle();
+			    return false;
+			  });
+			  $(window).resize(function(){
+			    var win = $(window).width();
+			    var p = 640;
+			    if(win > p){
+			      $(".menu").show();
+			    } else {
+			      $(".menu").hide();
+			    }
+			  });
+			});
+			$(function() {
+				var win = $(window).width();
+			    var p = 640;
+			    if(win < p)$(function(){
+					$(".menuList").click(function(){
+						$(".menu").hide();
+					});
+				});
+			});
+		</script>
+
+		<header>
+			<nav id="menu-box">
+			<div id="toggle"><a href="#" class="toggleMenu"><img src="images/rogo.png" class="toggleRogo">RECRUIT MENU</a></div>
+				<ul class="menu">
+					<li class="menuRogo"><a href="index.html"><img src="images/rogo.png" class="rogo"></a></li>
+					<li class="menuHome"><a href="index.html">ホーム</a></li>
+					<li class="menuList"><a href="#">会社概要<span class="menuLinkUnder">Company</span></a></li>
+					<li class="menuList"><a href="#">仕事内容<span class="menuLinkUnder">Work</span></a></li>
+					<li class="menuList"><a href="#">経営理念<span class="menuLinkUnder">Vision</span></a></li>
+					<li class="menuList"><a href="#">社員紹介<span class="menuLinkUnder">Produce</span></a></li>
+					<li class="menuList"><a href="#">福利厚生<span class="menuLinkUnder">Welfare</span></a></li>
+					<li class="menuList"><a href="#">募集要項<span class="menuLinkUnder">Recruit</span></a></li>
+				</ul>
+			</nav>
+		<div class="clear"></div>
+		</header>
+		
+		<div class="mainImageBox">
+			<ul class="bxslider">
+				<li><img src="images/climbing.png" class="mainImages"></li>
+				<li><img src="images/mainImage1.png" class="mainImages"></li>
+				<li><img src="images/mainImage2.png" class="mainImages"></li>
+			</ul>
+		</div>
+		
+		<div class="">
+			<a href=""><img src="images/contentsImageCompany.png" class="contents1"></a>
+			<a href=""><img src="images/contentsImageWorking.png" class="contents1"></a>
+		</div>
+		<div class="contentsBox2">
+			<a href=""><img src="images/contentsImageVision.png" class="contents2L"></a>
+			<a href=""><img src="images/contentsImageProduce.png" class="contents2R"></a>
+			<a href=""><img src="images/contentsImageWelfare.png" class="contents2L"></a>
+			<a href="recruit.html">
+				<img src="images/contentsImageRecruit.png" class="contents2R">
+			</a>
+		</div>
+
+		<div class="clear"><div>
+		<footer>
+			<hr>
+			<div class="LinkImageBox">
+				<div class="ricNaviImageBox">
+					<a href=""><img src="images/rn_logo_b.gif" class="ricNaviImage"></a>
+					<a href=""><img src="images/qr20180316101758793.png" class="LinkricNaviImageRespons"></a>
+				</div>
+				<a href=""><img src="images/facebook_link.gif" class="LinkFBImage"></a>
+			</div>
+			<div class="footerMenuBox">
+				<ul class="footerMenu">
+					<li class="footerMenu"><a href="" class="footerMenuLink">会社概要<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">仕事内容<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">経営理念<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">社員紹介<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">福利厚生<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">募集要項<a/></li>
+				</ul>
+			</div>
+			<div class="clear"><div>
+			<p class="copyright">Copyright ©2018 BIT Ltd. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
