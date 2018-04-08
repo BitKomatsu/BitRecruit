@@ -1,0 +1,107 @@
+<!DECTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>(仮)BITリクルートサイト</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
+    	<script type="text/javascript">
+			$(document).ready(function(){
+				$('.bxslider').bxSlider({
+					auto: true,
+					speed: 500,
+					pause: 4000
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$(function(){
+			  $("#toggle").click(function(){
+			    $(".menu").slideToggle();
+			    return false;
+			  });
+			  $(window).resize(function(){
+			    var win = $(window).width();
+			    var p = 640;
+			    if(win > p){
+			      $(".menu").show();
+			    } else {
+			      $(".menu").hide();
+			    }
+			  });
+			});
+			$(function() {
+				var win = $(window).width();
+			    var p = 640;
+			    if(win < p)$(function(){
+					$(".menuList").click(function(){
+						$(".menu").hide();
+					});
+				});
+			});
+		</script>
+
+		<header>
+			<nav id="menu-box">
+			<div id="toggle"><a href="#" class="toggleMenu"><img src="images/rogo.png" class="toggleRogo">RECRUIT MENU</a></div>
+				<ul class="menu">
+					<li class="menuRogo"><a href="index.html"><img src="images/rogo.png" class="rogo"></a></li>
+					<li class="menuHome"><a href="index.html">ホーム</a></li>
+					<li class="menuList"><a href="#">会社概要<span class="menuLinkUnder">Company</span></a></li>
+					<li class="menuList"><a href="#">仕事内容<span class="menuLinkUnder">Work</span></a></li>
+					<li class="menuList"><a href="#">経営理念<span class="menuLinkUnder">Vision</span></a></li>
+					<li class="menuList"><a href="#">社員紹介<span class="menuLinkUnder">Produce</span></a></li>
+					<li class="menuList"><a href="#">福利厚生<span class="menuLinkUnder">Welfare</span></a></li>
+					<li class="menuList"><a href="#">募集要項<span class="menuLinkUnder">Recruit</span></a></li>
+				</ul>
+			</nav>
+		<div class="clear"></div>
+		</header>
+		
+		社風<br>
+		”愉快な仲間たち”<br>
+		よくある言葉ですが、やっぱりそれが一番しっくり来る感じです。<br>
+		bitにはいろんな人がいます。<br>
+		よく話す人。よく笑う人。<br>
+		もちろん、仕事をしている最中は集中していますので、無言でパソコンの画面を見つめ、聞こえてくるのはキーボードをたたく音だけ。<br>
+		そんな場面がほとんどですが、誰だって息抜きが必要なわけで、その使い分けが上手です。<br>
+		誰かの一言がきっかけで、さらにかぶせてボケる人やノリ突っ込みをする人でしばらくは笑い話で脳の緊張を緩めたあと、またみんな仕事に集中する。<br>
+		こんなことを繰り返しながら日々の仕事をこなしています。<br>
+		大阪発の会社だから、といわれればまさにそのとおりなのですが<br>
+		考える仕事なのでどうしても行き詰ってしまうことがあります。<br>
+		そんなときにさりげなく、冗談の中で手助けをし合う。<br>
+		そんな人たちが、それぞれの夢や希望、憧れや目標をみんなで実現していく会社です。<br>
+		
+		スタッフ<br>
+		BITの社員の数名をご紹介します。<br>
+		
+		<footer>
+			<hr>
+			<div class="LinkImageBox">
+				<div class="ricNaviImageBox">
+					<a href=""><img src="images/rn_logo_b.gif" class="ricNaviImage"></a>
+					<a href=""><img src="images/qr20180316101758793.png" class="LinkricNaviImageRespons"></a>
+				</div>
+				<a href=""><img src="images/facebook_link.gif" class="LinkFBImage"></a>
+			</div>
+			<div class="footerMenuBox">
+				<ul class="footerMenu">
+					<li class="footerMenu"><a href="" class="footerMenuLink">会社概要<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">仕事内容<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">経営理念<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">社員紹介<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">福利厚生<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">募集要項<a/></li>
+				</ul>
+			</div>
+			<div class="clear"><div>
+			<p class="copyright">Copyright ©2018 BIT Ltd. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
