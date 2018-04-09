@@ -7,16 +7,16 @@
     scroll-behavior: smooth;
 	}
 	body {
-	    width: 1366px;
+	    width: 1200px;
 	    margin-right: auto;
 	    margin-left: auto;
 	}
 	.clear { clear:both;}
 
 	/* ヘッダー関連 */
-	.header {width:1366px; margin: 0; padding: 0; height: 133px;}
+	.header {width: 1200px; margin: 0; padding: 0; height: 133px;}
 	img.rogo { height: 132px;}
-	.menu { width:1366px; height: 132px; float: left; background: #444b8c; font-weight: bold; padding:0; padding-bottom:10px; margin-bottom:0;}
+	.menu { width:1200px; height: 132px; float: left; background: #1f499d; font-weight: bold; padding:0; padding-bottom:10px; margin-bottom:0;}
 	.menuList{ display: inline-block; width: 13%; height: 132px; position:relative; font-size: 18px; text-align: center; line-height: 1.1em;}
 	.menuRogo{ display: inline-block;  height: 132px; position:relative; }
 	.menuHome{ display: none; }
@@ -27,13 +27,13 @@
 	.menuLinkUnder{ font-size: 11px; }
 
 	/* メインイメージ関連 */
-	.mainImageBox { width: 1366px; margin-top: 0px; margin-bottom: 20px;}
-	.mainImages { width: 1366px;}
+	.mainImageBox { width: 1200px; margin-top: 0px; margin-bottom: 20px;}
+	.mainImages { width: 1200px;}
 
 	/* コンテンツ関連 */
-	.contents1{ width: 1366px; height: 350px;margin-bottom: 50px;}
-	.contents2L{ width: 658px; height: 350px; float:left; margin-bottom: 20px;}
-	.contents2R{ width: 658px; height: 350px; float:right; margin-bottom: 50px;}
+	.contents1{ width: 1200px; height: 350px;margin-bottom: 50px;}
+	.contents2L{ width: 575px; float:left; margin-bottom: 20px;}
+	.contents2R{ width: 575px; float:right; margin-bottom: 50px;}
 
 	/* フッター関連 */
 	hr {
@@ -43,7 +43,7 @@
 	   height: 1px;
 	}
 	
-	.footer{width:1366px;}
+	.footer{width:1200px;}
 	.LinkImageBox{width: 530px; float:left; margin-top: 5px; margin-bottom: 5px;}
 	.ricNaviImageBox{width: 250px; float:left; margin-left: 10px;}
 	img.ricNaviImage{width: 183px;}
@@ -79,8 +79,8 @@
 	    padding: 0.5em 1em;
 	    text-decoration: none;
 	    background: #f7f7f7;
-	    border-left: solid 6px #444b8c;/*左線*/
-	    color: #444b8c;/*文字色*/
+	    border-left: solid 6px #1f499d;/*左線*/
+	    color: #1f499d;/*文字色*/
 	    font-weight: bold;
 	    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
 	    margin-left: 25px; margin-right:25px;
@@ -118,7 +118,7 @@
 	.menuHome:last-child a{ color: white; text-decoration: none; text-align: center; text-decoration: none;}
 	.menuHome a:hover{ color: white; text-decoration: none; text-align: center; text-decoration: none;}
 
-	.menu {display: none; background: #444b8c; margin: 0; padding: 0; width:100%; height:auto;}
+	.menu {display: none; background: #1f499d; margin: 0; padding: 0; width:100%; height:auto;}
 	.menuList{ font-size: 3vw; text-align: center; padding-bottom:5px;}
 	.menuRogo{ display: none; }
 	.menuList a {color: white; bottom:0; text-align: center; text-decoration: none;}
@@ -129,7 +129,7 @@
 		display: block;
 		position: relative;
 		width: 100%;
-		background: #444b8c;
+		background: #1f499d;
 	}
 	#toggle a{
 		display: block;
@@ -194,8 +194,8 @@
 	    padding: 0.5em 1em;
 	    text-decoration: none;
 	    background: #f7f7f7;
-	    border-left: solid 6px #444b8c;/*左線*/
-	    color: #444b8c;/*文字色*/
+	    border-left: solid 6px #1f499d;/*左線*/
+	    color: #1f499d;/*文字色*/
 	    font-weight: bold;
 	    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
 	    margin: 10px;
@@ -233,7 +233,7 @@
 	.menuHome a {color: white; bottom:0; text-align: center; text-decoration: none;}
 	.menuHome:last-child a{ color: white; text-decoration: none; text-align: center; text-decoration: none;}
 	.menuHome a:hover{ color: white; text-decoration: none; text-align: center; text-decoration: none;}
-	.menu {display: none; background: #444b8c; margin: 0; padding: 0; width:100%; height:auto;}
+	.menu {display: none; background: #1f499d; margin: 0; padding: 0; width:100%; height:auto;}
 	.menuList{ font-size: 4vw; text-align: center; padding-bottom:5px;}
 	.menuRogo{ display: none; }
 	.menuList a {color: white; bottom:0; text-align: center; text-decoration: none;}
@@ -243,7 +243,7 @@
 	#toggle {
 		display: block;
 		width: 100%;
-		background: #444b8c;
+		background: #1f499d;
 		padding: 0;
 	}
 	#toggle a{
@@ -310,8 +310,8 @@
 	    padding: 0.5em 1em;
 	    text-decoration: none;
 	    background: #f7f7f7;
-	    border-left: solid 6px #444b8c;/*左線*/
-	    color: #444b8c;/*文字色*/
+	    border-left: solid 6px #1f499d;/*左線*/
+	    color: #1f499d;/*文字色*/
 	    font-weight: bold;
 	    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
 	    margin: 10px;
