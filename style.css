@@ -70,6 +70,11 @@
 
 	/* 社員紹介関連 */
 	.pageTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
+	
+	.testFrame{ width: 200px; height: 300px; border: solid 1px black; }
+	.staffCenter{ width: 755px; margin:auto; padding:auto;}
+	.center{width:200px;text-align:center; float:left; margin:0px 25px 25px 25px;}
+
 	.popupModal1 > input 
 	{ /* ラジオボックス非表示 */
 	    display: none;
@@ -314,6 +319,9 @@
 
 	/* 社員紹介関連 */
 	.pageTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
+	
+	.testFrame{ width: 200px; height: 300px; border: solid 5px #008080; }
+	
 	.popupModal1 > input 
 	{ /* ラジオボックス非表示 */
 	    display: none;
