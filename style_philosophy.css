@@ -19,7 +19,7 @@ h1 {
 
 /* Œo‰c—”O‰ºŒ©o‚µ */
 .text_1 {
-	text-align: center;
+	text-align: left;
 	font-size: 25;
 	font-weight: 600; 		/* ƒtƒHƒ“ƒg‚Ì”Z‚³ */
 	margin: 50px 0;		/* ã‰º‚É‹ó”’ */
@@ -36,9 +36,9 @@ h1 {
 }
 
 p{
-	text-align: center;		/*•¶Í’†‰›‘µ‚¦*/
+	text-align: left;		/*•¶Í’†‰›‘µ‚¦*/
 	line-height: 300%;	/* sŠÔ */
-	margin: 70px 0;
+	margin: 70px 60px;
 }
 
 
@@ -96,7 +96,7 @@ img {
 
 .list {
     padding: 8px 19px;
-    margin: 2em 0em 2em 0;
+    margin: 2em 0em 2em 3em;
     color: #2c2c2f;
     background: #cde4ff;
     border-top: solid 5px #5989cf;
@@ -104,6 +104,12 @@ img {
     font-family: gSTKaitih, gƒqƒ‰ƒMƒm–¾’© Pro W3, gHiragino Mincho Proh, serif;
 	font-weight: 800;
 }
+
+p#p1 {
+	font-size: 120%;
+	font-weight: boilder;
+}
+
 
 }
 
@@ -216,6 +222,12 @@ img {
     border-bottom: solid 5px #5989cf;
 }
 
+p#p1 {
+	font-size: 120%;
+	font-weight: boilder;
+}
+
+
 }
 
 
@@ -324,6 +336,12 @@ img {
     border-top: solid 5px #5989cf;
     border-bottom: solid 5px #5989cf;
 }
+
+p#p1 {
+	font-size: 120%;
+	font-weight: boilder;
+}
+
 
 }
 
