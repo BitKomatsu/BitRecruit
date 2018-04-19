@@ -16,10 +16,10 @@
 
 	/* ヘッダー関連 */
 	.header {width: 1200px; margin: 0; padding: 0; height: 133px;}
-	img.rogo { height: 132px;}
+	img.rogo { height: 115px; margin-bottom: -4px;}
 	.menu { width:1200px; height: 132px; float: left; background: #1f499d; font-weight: bold; padding:0; padding-bottom:10px; margin-bottom:0;}
-	.menuList{ display: inline-block; width: 13%; height: 132px; position:relative; font-size: 18px; text-align: center; line-height: 1.1em;}
-	.menuRogo{ display: inline-block;  height: 132px; position:relative; }
+	.menuList{ display: inline-block; width: 12%; height: 132px; position:relative; font-size: 18px; text-align: center; line-height: 1.1em;}
+	.menuRogo{ display: inline-block;  height: 132px; position:relative; background-color:#1f499d;}
 	.menuHome{ display: none; }
 	.menuList a {color: white; position:absolute; bottom:0; text-align: center; text-decoration: none;}
 	.menuList:last-child a{ color: white; text-decoration: none; text-align: center; text-decoration: none;}
@@ -32,8 +32,8 @@
 	.mainImages { width: 1200px;}
 
 	/* コンテンツ関連 */
-	.contents1{ width: 1200px; height: 350px;margin-bottom: 50px;}
-	.contents2L{ width: 575px; float:left; margin-bottom: 20px;}
+	.contents1{ width: 1200px; height: 400px;margin-bottom: 50px;}
+	.contents2L{ width: 575px; float:left; margin-bottom: 50px;}
 	.contents2R{ width: 575px; float:right; margin-bottom: 50px;}
 
 	/* フッター関連 */
