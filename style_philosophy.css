@@ -1,19 +1,19 @@
 /* ******************************
-		Œo‰c—”O
+		çµŒå–¶ç†å¿µ
 ******************************** */
 @media screen and (min-width: 769px){
 
 
 
 body{
-	/*width: 1366px;		‘S‘Ì‚Ì‰¡•*/
-	padding-left: 10%;		/* —¼’[‚É‹ó”’ */
+	width: 1366px;		/*å…¨ä½“ã®æ¨ªå¹…*/
+	padding-left: 10%;		/* ä¸¡ç«¯ã«ç©ºç™½ */
 	padding-right: 10%;
 }
 
 h1 {
-	background: #BDBDBD;    /*”wŒiF*/
-	padding: 0.5em;         /*•¶š‚Ü‚í‚èiã‰º¶‰Ej‚Ì—]”’*/
+	background: #BDBDBD;    /*èƒŒæ™¯è‰²*/
+	padding: 0.5em;         /*æ–‡å­—ã¾ã‚ã‚Šï¼ˆä¸Šä¸‹å·¦å³ï¼‰ã®ä½™ç™½*/
 	font-size: 35;
 }
 
@@ -28,16 +28,16 @@ h2{
 	border-left: 6px solid #ccc;
 }
 
-/* Œo‰c—”O‰ºŒ©o‚µ */
+/* çµŒå–¶ç†å¿µä¸‹è¦‹å‡ºã— */
 .text_1 {
 	text-align: center;
 	font-size: 25;
-	font-weight: 600; 		/* ƒtƒHƒ“ƒg‚Ì”Z‚³ */
-	margin: 50px 0;		/* ã‰º‚É‹ó”’ */
+	font-weight: 600; 		/* ãƒ•ã‚©ãƒ³ãƒˆã®æ¿ƒã• */
+	margin: 50px 0;		/* ä¸Šä¸‹ã«ç©ºç™½ */
 	position: relative;		
 	padding: 0.25em 0;
 }
-.text_1:after {		/* Œ©o‚µ‰ºü */
+.text_1:after {		/* è¦‹å‡ºã—ä¸‹ç·š */
 	content: "";
 	display: block;
 	height: 4px;
@@ -46,15 +46,15 @@ h2{
 	background: linear-gradient(to right, rgb(0, 60, 250), transparent); /*red(230,90,90)*/
 }
 
-p{
-	text-align: center;		/*•¶Í’†‰›‘µ‚¦*/
-	line-height: 300%;	/* sŠÔ */
+p#upper_text{
+	text-align: center;		/*æ–‡ç« ä¸­å¤®æƒãˆ*/
+	line-height: 300%;	/* è¡Œé–“ */
 	margin: 70px 60px;
 }
 
 
 
-/************** Ğ’·‚ ‚¢‚³‚Â‚æ‚è‰º ****************/
+/************** ç¤¾é•·ã‚ã„ã•ã¤ã‚ˆã‚Šä¸‹ ****************/
 
 
 
@@ -67,75 +67,93 @@ p{
 	padding-left:2em;
 }
 
+
+
+
 #upper_conteiner {
-	padding-left: 2em;
+	padding: 0 2em;
 	background-color: yellow;
 	height: 600px;
-	display: table;
+	/*display: table;*/
+	width: 100%;
+	margin: 0 auto;
 }
 
-h2{
-	text-align: left;	
-	padding: .5em .75em;	
-	background-color: #f6f6f6;
-	border-left: 6px solid #ccc;
-}
 
 .hello {
-	margin-top: 50px;
-	padding-left: 3em;
-	font-style: italic;
-	/* font-family: gSTKaitih, gƒqƒ‰ƒMƒm–¾’© Pro W3, gHiragino Mincho Proh, serif; */
-	/* font-weight: 800;  */
-	line-height:300%
-	display:table-cell;
+	/*display: table-cell;*/
+	width: 50%;
+	height: 100%;
+	background-color: #58FA58;
+	padding: 0;
+	float: left;
+	line-height:300%;
 }
 
 .president {
-	float: left;
-	top: 50px;
-	right: 0px;
-	height: 500px;
-	margin-left: 50px;
-	display:table-cell;
+	text-align: right;
+	background-color: #81F7F3;
+	width: auto;
+	/*margin-left: 50px;
+	width: 400px;
+	background-color: #81F7F3;
+	float: right;
+	display: table-cell;*/
 }
 
 img {
-	float:right;
+	/*float:right;
 	top: 50px;
 	right: 0px;
 	max-width: 400px;
 	max-height: 381px;
-	margin-bottom: 25px;
+	margin-bottom: 25px;*/
 }
 
 .presidentTx {
-	text-align: right;
-	margin-top: 20px;
+	/*text-align: right;
+	margin-top: 20px;*/
 }
+
+.clear {
+    clear:both;
+}
+
+#wrapper_list{
+	background-color: #FAAC58;
+	text-align: center;
+}
+
 
 .list{
 	font-size: 140%;
-	width: 40%;
-    padding: 8px 19px;
-    margin: 2em 0 2em 3em;
+	width: 41%;
+    padding: 8px 30px;
+    margin: 2em 0 2em 20em;
     color: #000000;
-    /*background: #E6E6E6;*/
     border-top: double 7px #000000;
     border-bottom: double 7px #000000;
-    font-family: gSTKaitih, gƒqƒ‰ƒMƒm–¾’© Pro W3, gHiragino Mincho Proh, serif;
+    font-family: â€œSTKaitiâ€, â€œãƒ’ãƒ©ã‚®ãƒæ˜æœ Pro W3â€³, â€œHiragino Mincho Proâ€, serif;
 	font-weight: 800;
+	background-color: #F5A9BC;
 }
 .list p {
-    margin: 0; 
+text-align: left;
+    margin: 10px 0 10px 10px; 
     padding: 0;
 }
 
 p#p1 {
-	text-align: left;
+	text-align: center;
 	margin-left: 15%;
 	font-size: 120%;
 	font-weight: boilder;
+}
+
+p#p2 {
+	background-color: #58FA58;
+	padding: 0;
+	line-height:300%;
 }
 
 
@@ -146,21 +164,21 @@ p#p1 {
 
 
 /* ******************************
-	Œo‰c—”Oƒ^ƒuƒŒƒbƒg—pCSS
+	çµŒå–¶ç†å¿µã‚¿ãƒ–ãƒ¬ãƒƒãƒˆç”¨CSS
 ******************************** */
 @media screen and (max-width: 768px){
 
 
 
 body{
-	/*width: 1366px;		‘S‘Ì‚Ì‰¡•*/
+	/*width: 1366px;		å…¨ä½“ã®æ¨ªå¹…*/
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
 h1 {
-	background: #BDBDBD;    /*”wŒiF*/
-	padding: 0.5em;         /*•¶š‚Ü‚í‚èiã‰º¶‰Ej‚Ì—]”’*/
+	background: #BDBDBD;    /*èƒŒæ™¯è‰²*/
+	padding: 0.5em;         /*æ–‡å­—ã¾ã‚ã‚Šï¼ˆä¸Šä¸‹å·¦å³ï¼‰ã®ä½™ç™½*/
 }
 
 #container {
@@ -187,14 +205,14 @@ h1 {
 }
 
 p {
-	text-align: center;		/*•¶Í’†‰›‘µ‚¦*/
+	text-align: center;		/*æ–‡ç« ä¸­å¤®æƒãˆ*/
 	line-height:200%	
 	padding-left:2em;
 	font-size: 14;
 }
 
 
-/************** Ğ’·‚ ‚¢‚³‚Â‚æ‚è‰º ****************/
+/************** ç¤¾é•·ã‚ã„ã•ã¤ã‚ˆã‚Šä¸‹ ****************/
 
 
 
@@ -239,7 +257,7 @@ img {
 .hello {
 	padding-left:4em;
 	font-style: italic;
-	font-family: gSTKaitih, gƒqƒ‰ƒMƒm–¾’© Pro W3, gHiragino Mincho Proh, serif;
+	font-family: â€œSTKaitiâ€, â€œãƒ’ãƒ©ã‚®ãƒæ˜æœ Pro W3â€³, â€œHiragino Mincho Proâ€, serif;
 	font-weight: 800; 
 	font-size: 14;
 	line-height: 300%
@@ -267,7 +285,7 @@ p#p1 {
 
 
 /* ******************************
-	Œo‰c—”OƒXƒ}ƒz—pCSS
+	çµŒå–¶ç†å¿µã‚¹ãƒãƒ›ç”¨CSS
 ******************************** */
 @media screen and (max-width:640px){
 
@@ -275,8 +293,8 @@ p#p1 {
 
 
 h1 {
-	background: #BDBDBD;    /*”wŒiF*/
-	padding: 0.5em;         /*•¶š‚Ü‚í‚èiã‰º¶‰Ej‚Ì—]”’*/
+	background: #BDBDBD;    /*èƒŒæ™¯è‰²*/
+	padding: 0.5em;         /*æ–‡å­—ã¾ã‚ã‚Šï¼ˆä¸Šä¸‹å·¦å³ï¼‰ã®ä½™ç™½*/
 }
 
 #container {
@@ -304,7 +322,7 @@ h1 {
 
 
 p {
-	text-align: center;		/*•¶Í’†‰›‘µ‚¦*/
+	text-align: center;		/*æ–‡ç« ä¸­å¤®æƒãˆ*/
 	line-height:200%	
 	padding-left:2em;
 	font-size: 12;
@@ -312,7 +330,7 @@ p {
 
 
 
-/************** Ğ’·‚ ‚¢‚³‚Â‚æ‚è‰º ****************/
+/************** ç¤¾é•·ã‚ã„ã•ã¤ã‚ˆã‚Šä¸‹ ****************/
 
 
 
@@ -358,7 +376,7 @@ img {
 .hello {
 	padding-left:4em;
 	font-style: italic;
-	font-family: gSTKaitih, gƒqƒ‰ƒMƒm–¾’© Pro W3, gHiragino Mincho Proh, serif;
+	font-family: â€œSTKaitiâ€, â€œãƒ’ãƒ©ã‚®ãƒæ˜æœ Pro W3â€³, â€œHiragino Mincho Proâ€, serif;
 	font-weight: 800; 
 	font-size: 12;
 	line-height:300%
