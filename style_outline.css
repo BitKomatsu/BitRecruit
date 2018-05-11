@@ -2,10 +2,11 @@
 		会社概要
 ******************************** */
 
-/* bodyの両サイドに余白を作る */
-.overview{
-	padding-left: 10%;
+body{
+	width: 1366px;		/*全体の横幅*/
+	padding-left: 10%;		/* 両端に空白 */
 	padding-right: 10%;
+	font-family: "游ゴシック";
 }
 
 /* 会社概要部分*/
