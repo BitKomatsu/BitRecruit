@@ -15,8 +15,61 @@ h1 {
 	padding: 0.5em;         /*文字まわり（上下左右）の余白*/
 }
 
-.description1 img {
+h2 {
+	color: #0000cd;
+}
+
+.text {
 	text-align: center;
+}
+
+
+img.image1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image4 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image5 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image6 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image7 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image8 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
