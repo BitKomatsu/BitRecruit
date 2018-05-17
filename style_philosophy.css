@@ -108,6 +108,9 @@
 	#wrapper_list{
 		text-align: center;
 		width: 100%;
+		background-color: #F5F6CE;
+		padding: 1em 0 0.3em 0;
+		margin: 2% 0;
 	}
 
 	.list p {
@@ -119,21 +122,30 @@
 	p#p1 {
 		text-align: center;
 		font-size: 120%;
-		font-weight: boilder;
+		font-weight: 545;
+		color: #330000;
+		-webkit-text-stroke:0.6px #330000;
+		margin: 2% 0 1% 0;
 	}
 
 	.list{
 		font-size: 140%;
-		width: 41%;
-	    padding: 8px 30px;
-	    margin: 2em 0 2em 16em;
+		line-height:250%;
+		width: 43%;
+	    padding: 18px 20px 18px 25px;
+	    margin: 1.5em 0 2em 16em;
 	    color: #000000;
-	    border-top: double 7px #000000;
-	    border-bottom: double 7px #000000;
+	    border-top: double 7px #330000;
+	    border-bottom: double 7px #330000;
 		font-weight: 800;
 	}
 
 	p#p2 {
+		color: #330000;
+		margin: 0;
+	}
+	
+	p#p3 {
 		padding: 0;
 		line-height:200%;
 	}
