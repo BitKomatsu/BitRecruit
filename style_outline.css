@@ -18,10 +18,12 @@ h1 {
 
 
 .index{
+	width: 10%;
 	color: #002b62;
 	font-size: 18px; 
 	font-weight: bold; 
 	float: left;
+	margin:0;
 }
 
 .contents {
@@ -90,6 +92,7 @@ h1 {
 	color: #002b62;
 	font-weight: bold;
 	padding: 0 20px 15px 20px;
+	background-color: #BCF5A9;
 }
 
 .contents {
