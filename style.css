@@ -15,11 +15,11 @@
 	.clear { clear:both;}
 
 	/* ヘッダー関連 */
-	.header {width: 1200px; margin: 0; padding: 0; height: 133px;}
-	img.rogo { height: 115px; margin-bottom: -4px;}
-	.menu { width:1200px; height: 132px; float: left; background: #1f499d; font-weight: bold; padding:0; padding-bottom:10px; margin-bottom:0;}
-	.menuList{ display: inline-block; width: 12%; height: 132px; position:relative; font-size: 18px; text-align: center; line-height: 1.1em;}
-	.menuRogo{ display: inline-block;  height: 132px; position:relative; background-color:#1f499d;}
+	.header {width: 1200px; margin: 0; padding: 0; height: 80px;}
+	img.rogo { height: 76px; margin-bottom: -4px; padding-left:15px;}
+	.menu { width:1200px; height: 80px; float: left; background: #1f499d; font-weight: bold; padding:0; padding-bottom:10px; margin-bottom:0;}
+	.menuList{ display: inline-block; width: 13%; height: 80px; position:relative; font-size: 18px; text-align: center; line-height: 1.1em;}
+	.menuRogo{ display: inline-block;  height: 80px; position:relative; background-color:#1f499d;}
 	.menuHome{ display: none; }
 	.menuList a {color: white; position:absolute; bottom:0; text-align: center; text-decoration: none;}
 	.menuList:last-child a{ color: white; text-decoration: none; text-align: center; text-decoration: none;}
@@ -44,32 +44,38 @@
 	   height: 1px;
 	}
 	
-	.footer{width:1200px;}
-	.LinkImageBox{width: 530px; float:left; margin-top: 5px; margin-bottom: 5px;}
-	.ricNaviImageBox{width: 250px; float:left; margin-left: 10px;}
-	img.ricNaviImage{width: 183px;}
-	img.LinkricNaviImageRespons{width: 183px;}
-	img.LinkFBImage{width: 250px; float:left; margin-left:20px;}
-
-	.footerMenuBox { width: 500px; float: right; margin-top:10px;}
+	footer{width:1200px; background-color:#e6f2f7;}
+	.LinkImageBox{width:80%; margin:auto; padding: 10px 0;}
+	.chibit{height:200px; float:left;}
+	img.ricNaviImage{height:120px; margin-left:20px; margin-top:50px;}
+	img.LinkricNaviImageRespons{width: 120px; margin-left:50px;}
+	.footerMenuBox { margin-top:10px; background-color: #1f499d;}
 	.footerMenu {
-	    width : 100%;
+	    width : 40%;
 	    display:table;
 	    table-layout:fixed;
-	    text-align:right;
+	    text-align:center;
+	    font-color:white;
+	    height:40px;
 	}
-	ul.footerMenu { margin: 0; padding: 0; }
+	ul.footerMenu { margin: auto; padding: 0; }
 	li.footerMenu { display: table-cell; vertical-align: middle; margin: 0; padding: 0; }
 
-	.footerMenuLink:link {color: black; text-decoration: none; font-size: 1em;}
-	.footerMenuLink:visited{color: black; text-decoration: none; font-size: 1em;}
-	.footerMenuLink:hover {color: black; text-decoration: none; font-size: 1em;}
-	.footerMenuLink:active {color: black; text-decoration: none; font-size: 1em;}
+	.footerMenuLink:link {color: white; text-decoration: none; font-size: 1em;}
+	.footerMenuLink:visited{color: white; text-decoration: none; font-size: 1em;}
+	.footerMenuLink:hover {color: white; text-decoration: none; font-size: 1em;}
+	.footerMenuLink:active {color: white; text-decoration: none; font-size: 1em;}
 
-	.copyright{text-align:center; font-size: 13px; padding-top: 50px;}
+	.copyright{text-align:center; font-size: 13px; margin-top: 0; padding: 0 0; height:40px; line-height: 40px;}
 
 	/* 社員紹介関連 */
-	.pageTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
+	.pageTitle {
+		font-size: 50px;
+		text-align: center;
+		background: lightgray;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
 	
 	.testFrame{ width: 200px; height: 300px; border: solid 1px black; }
 	.staffCenter{ width: 755px; margin:auto; padding:auto;}
@@ -291,7 +297,7 @@
 	   border-color: black;
 	   height: 1px;
 	}
-	.footer{width:100%;}
+	footer{width:100%;}
 	.LinkImageBox{width: 75%; float:left; text-align:center; margin-top: 5px; margin-bottom: 5px;}
 	.ricNaviImageBox{width: 45%; float:left; margin-bottom:10px;}
 	img.ricNaviImage{width: 100%;}
@@ -305,16 +311,17 @@
 	    table-layout:fixed;
 	    text-align:center;
 	    font-size: 1em;
+	    color:white;
 	}
 	ul.footerMenu { margin: 0; padding: 0; font-size: 2vw;}
 	li.footerMenu { display: table-cell; vertical-align: middle; margin: 0; padding: 0; }
 
-	.footerMenuLink:link {color: black; text-decoration: none;}
-	.footerMenuLink:visited{color: black; text-decoration: none; }
-	.footerMenuLink:hover {color: black; text-decoration: none; }
-	.footerMenuLink:active {color: black; text-decoration: none;}
+	.footerMenuLink:link {color: white; text-decoration: none;}
+	.footerMenuLink:visited{color: white; text-decoration: none; }
+	.footerMenuLink:hover {color: white; text-decoration: none; }
+	.footerMenuLink:active {color: white; text-decoration: none;}
 
-	.copyright{text-align:center; font-size: 2vw; padding-top: 15px;}
+	.copyright{text-align:center; font-size: 2vw; padding-top: 15px; background-color: #1f499d;}
 
 
 	/* 社員紹介関連 */
@@ -549,7 +556,7 @@
 	.footerMenuLink:hover {color: black; text-decoration: none; }
 	.footerMenuLink:active {color: black; text-decoration: none;}
 
-	.copyright{text-align:center; font-size: 2vw; padding-top: 15px;}
+	.copyright{text-align:center; font-size: 2vw; padding-top: 15px; background-color:#1f499d;}
 
 	/* 社員紹介関連 */
 	.pageTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
