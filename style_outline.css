@@ -3,10 +3,11 @@
 ******************************** */
 
 body{
-	width: 1366px;
+	width: 1024px;
 	padding-left: 10%;
 	padding-right: 10%;
 	font-family: "游ゴシック";
+	background-image: url(images/background_image.png);
 }
 
 /* 会社概要部分*/
@@ -16,22 +17,33 @@ h1 {
 	width: 100%;
 }
 
+table {
+	margin:0 auto;
+	border-collapse: collapse;
+}
+
+.wrap_cell {
+	border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+}
+
 
 .index{
-	width: 10%;
-	color: #002b62;
-	font-size: 18px; 
-	font-weight: bold; 
-	float: left;
-	margin:0;
+	vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    width: auto;
+    min-width: 15%;
+    height: auto;
+    padding: 20px;
+    background-color: #EFFBFB;
 }
 
 .contents {
-	border-bottom: 2px solid #D7E8F0;
-	margin-bottom: 15px; 
-	margin-left: 0;
-	padding: 0 0 12px 185px;
-	
+	vertical-align: middle;
+    width: auto;
+    height: auto;
+    padding: 20px;
 }
 
 /* 認定パートナー部分*/
@@ -71,13 +83,13 @@ h1 {
 ******************************** */
 @media screen and (max-width: 768px){
 
-
-
-/* bodyの両サイドに余白を作る */
-.overview{
-	padding-left: 5%;
-	padding-right: 5%;
-	font-size: 0.95em;	/* タブレット用変更箇所 */
+body{
+	width: 768px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: "游ゴシック";
+	font-size: 0.95em;
+	background-image: url(images/background_image.png);
 }
 
 /* 会社概要部分*/
@@ -87,22 +99,7 @@ h1 {
 	width: 100%;
 }
 
-.index{
-	width: 100%;
-	color: #002b62;
-	font-weight: bold;
-	padding: 0 20px 15px 20px;
-	background-color: #BCF5A9;
-}
 
-.contents {
-	 font-size: 90%;
-	 border-bottom: 2px solid #D7E8F0;
-	 margin:0;
-	 padding: 0 20px 15px 20px; 
-	 margin-bottom:20px;
-	
-}
 
 
 /*認定パートナー*/
@@ -140,13 +137,15 @@ h1 {
 @media screen and (max-width:640px){
 
 
-
-/* bodyの両サイドに余白を作る */
-.overview{
-	padding-left: 5%;
-	padding-right: 5%;
-	font-size: 0.85em;	/* スマホ用変更箇所 */
+body{
+	width: 640px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: "游ゴシック";
+	font-size: 0.85em;
+	background-image: url(images/background_image.png);
 }
+
 
 /* 会社概要部分*/
 h1 {
