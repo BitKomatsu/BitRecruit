@@ -1,0 +1,189 @@
+/* ******************************
+		仕事内容
+******************************** */
+
+/* bodyの両サイドに余白を作る */
+.overview {
+	background-image: url(images/back.png);
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* 仕事内容部分*/
+h1 {
+	background: #BDBDBD;    /*背景色*/
+	padding: 0.5em;         /*文字まわり（上下左右）の余白*/
+}
+
+.text {
+	text-align: center;
+}
+
+img.image1 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image3 {
+	align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image4 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image5 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image6 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image7 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image8 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image9 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image10 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ******************************
+	仕事内容タブレット用CSS
+******************************** */
+@media screen and (max-width: 768px){
+
+
+
+/* bodyの両サイドに余白を作る */
+.overview{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 0.95em;	/* タブレット用変更箇所 */
+}
+
+/* 仕事内容部分*/
+h1 {
+background: #BDBDBD;    /*背景色*/
+padding: 0.5em;         /*文字まわり（上下左右）の余白*/
+}
+
+/* 各項目の本文の内容のインデントを下げる*/
+p {
+	padding-left: 2em;
+	margin-bottom: 30px;
+}
+
+/*各項目の文字にスタイルをつける*/
+.p1 {                  /*縦のライン*/
+  position: relative;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #3498db;
+}
+.p1::after {          /*横のライン*/
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+
+/*floatをクリアする*/
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+}
+
+
+
+
+
+/* ******************************
+	仕事内容スマホ用CSS
+******************************** */
+@media screen and (max-width:640px){
+
+
+
+/* bodyの両サイドに余白を作る */
+.overview{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 0.85em;	/* スマホ用変更箇所 */
+}
+
+/* 仕事内容部分*/
+h1 {
+background: #BDBDBD;    /*背景色*/
+padding: 0.5em;         /*文字まわり（上下左右）の余白*/
+}
+
+/* 各項目の本文の内容のインデントを下げる*/
+p {
+	padding-left: 2em;
+	margin-bottom: 30px;
+}
+
+/*各項目の文字にスタイルをつける*/
+.p1 {                  /*縦のライン*/
+  position: relative;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #3498db;
+}
+.p1::after {          /*横のライン*/
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/*floatをクリアする*/
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+}
+
