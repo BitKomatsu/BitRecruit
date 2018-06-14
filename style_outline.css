@@ -16,16 +16,20 @@ background: #BDBDBD;    /*背景色*/
 padding: 0.5em;         /*文字まわり（上下左右）の余白*/
 }
 
+.overview {
+	width:80%;
+}
+
 .outline_wrapper {
 	height: 10%;
-	width: 80%;
-	margin: 0.5% 10%;
+	width: 100%;
+	margin: 0.5% 0;
 	display: table;
 }
 
 hr {
   border-top: 1px solid #D8D8D8;
-  width: 80%;
+  width: 100%;
 }
 
 .index {
