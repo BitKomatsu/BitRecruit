@@ -1,0 +1,157 @@
+<!DECTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<title>(仮)BITリクルートサイト</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
+    	<script type="text/javascript">
+			$(document).ready(function(){
+				$('.bxslider').bxSlider({
+					auto: true,
+					speed: 500,
+					pause: 4000
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$(function(){
+			  $("#toggle").click(function(){
+			    $(".menu").slideToggle();
+			    return false;
+			  });
+			  $(window).resize(function(){
+			    var win = $(window).width();
+			    var p = 640;
+			    if(win > p){
+			      $(".menu").show();
+			    } else {
+			      $(".menu").hide();
+			    }
+			  });
+			});
+			$(function() {
+				var win = $(window).width();
+			    var p = 640;
+			    if(win < p)$(function(){
+					$(".menuList").click(function(){
+						$(".menu").hide();
+					});
+				});
+			});
+		</script>
+
+		<header>
+			<nav id="menu-box">
+			<div id="toggle"><img src="images/rogo.png" class="toggleRogo"><a href="#" class="toggleMenu">RECRUIT MENU</a></div>
+				<ul class="menu">
+					<li class="menuRogo"><a href="index.html"><img src="images/rogo.png" class="rogo"></a></li>
+					<li class="menuHome"><a href="index.html">ホーム</a></li>
+					<li class="menuList"><a href="#">会社概要<span class="menuLinkUnder">Company</span></a></li>
+					<li class="menuList"><a href="#">仕事内容<span class="menuLinkUnder">Work</span></a></li>
+					<li class="menuList"><a href="#">経営理念<span class="menuLinkUnder">Vision</span></a></li>
+					<li class="menuList"><a href="#">社員紹介<span class="menuLinkUnder">Produce</span></a></li>
+					<li class="menuList"><a href="#">福利厚生<span class="menuLinkUnder">Welfare</span></a></li>
+					<li class="menuList"><a href="#">募集要項<span class="menuLinkUnder">Recruit</span></a></li>
+				</ul>
+			</nav>
+		<div class="clear"></div>
+		</header>
+<div class="">
+</div>
+<div class="">
+	<h1 class="pageTitle">募集要項</h1>
+	<div class="clear"></div>
+		<h2>新卒採用</h2>
+		<dl class="recruitBox">
+			<dt class="recruitList">募集職種</dt>
+				<dd class="recruitListdd">
+					プログラマー
+				</dd>
+			<dt class="recruitList">求める人材</dt>
+				<dd class="recruitListdd">
+					開発チームの一員として仕事に携わっていただきますのでコミュニケーション能力および協調性のある人材<br>
+					IT業界は技術の進歩が速く、この流れの中で新しい知識や技術の習得に向けた向上心を持つ人材
+				</dd>
+			<dt class="recruitList">募集対象</dt>
+				<dd class="recruitListdd">
+					2019年3月末までに大学および大学院を卒業（修了）見込みの方（学部、学科不問）<br>
+					※既卒の方も新卒採用として応募可能です。
+				</dd>
+			<dt class="recruitList">給与</dt>
+				<dd class="recruitListdd">
+					大学院、大学（専門4年含） 230,000円<br>
+					短大・専門 210,000円<br>
+					※高卒者は募集しておりません<br>
+				</dd>
+			<dt class="recruitList">給与事例</dt>
+				<dd class="recruitListdd">
+					325万円／入社3年目／月給23万円<br>
+					440万円／入社5年目／月給32万円
+				</dd>
+			<dt class="recruitList">賞与</dt>
+				<dd class="recruitListdd">
+					年2回(7月、12月)<br>
+					実績により変動<br>
+				</dd>
+			<dt class="recruitList">給与改定</dt>
+				<dd class="recruitListdd">
+					年1回(5月)<br>
+					前年実績（平均2％）<br>
+				</dd>
+			<dt class="recruitList">休日休暇</dt>
+				<dd class="recruitListdd">
+					完全週休2日制（土、日）<br>
+					祝日、夏期休暇、年末年始休暇、有給休暇、慶弔休暇、産前産後休暇、育児休暇あり<br>
+					※年間休日120日以上
+				</dd>
+			<dt class="recruitList">諸手当</dt>
+				<dd class="recruitListdd">
+					通勤交通費全額支給<br>
+					職務手当、技術手当、資格手当、家族手当、住宅手当、残業手当、勤務地手当
+				</dd>
+			<dt class="recruitList">福利厚生</dt>
+				<dd class="recruitListdd">
+					健康保険・労災保険・雇用保険・厚生年金、財形貯蓄制度、企画（アイデア）報奨制度<br>
+					メンタルヘルス支援、親睦会制度、クラブ活動など<br>
+					全国情報サービス産業企業年金基金加入<br>
+					ベネフィット・ステーション（福利厚生サービス）加入
+				</dd>
+			<dt class="recruitList">勤務地</dt>
+				<dd class="recruitListdd">
+					東京都千代田区岩本町２－１２－２
+				</dd>
+			<div class="clear"></div>
+		</dl>
+		<div class="clear"></div>
+	</body>
+		<footer>
+			<hr>
+			<div class="LinkImageBox">
+				<div class="ricNaviImageBox">
+					<a href=""><img src="images/rn_logo_b.gif" class="ricNaviImage"></a>
+					<a href=""><img src="images/qr20180316101758793.png" class="LinkricNaviImageRespons"></a>
+				</div>
+				<a href=""><img src="images/facebook_link.gif" class="LinkFBImage"></a>
+			</div>
+			<div class="footerMenuBox">
+				<ul class="footerMenu">
+					<li class="footerMenu"><a href="" class="footerMenuLink">会社概要<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">仕事内容<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">経営理念<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">社員紹介<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">福利厚生<a/></li>
+					<li class="footerMenu"><a href="" class="footerMenuLink">募集要項<a/></li>
+				</ul>
+			</div>
+			<div class="clear"><div>
+			<p class="copyright">Copyright ©2018 BIT Ltd. All Rights Reserved.</p>
+		</footer>
+	</body>
+</html>
