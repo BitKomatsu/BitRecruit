@@ -4,17 +4,15 @@
 @media screen and (min-width: 769px){
 
 	body{
-		width: 1201px;
+		width: 1200px;
 		padding-left: 10%;
 		padding-right: 10%;
 		font-family: "游ゴシック";
 		background-image: url(images/background_image.png);
+		margin: auto;
 	}
 
-	h1 {
-		background: #BDBDBD;
-		padding: 0.5em;
-		font-size: 35;
+	.topImg {
 		text-align: center;
 	}
 
@@ -44,8 +42,8 @@
 	}
 
 	.slogan_mainText {
-		text-align: center;		/*文章中央揃え*/
-		line-height: 200%;	/* 行間 */
+		text-align: center;	
+		line-height: 200%;	
 		margin: 40px 60px 40px 60px;
 		font-size: 110%;
 	}
@@ -133,7 +131,7 @@
 		line-height:250%;
 		width: 50%;
 	    padding: 18px 20px 18px 25px;
-	    margin: 1.5em 0 2em 16em;
+	    margin: 1.5em 0 2em 12em;
 	    color: #000000;
 	    border-top: double 7px #300000;
 	    border-bottom: double 7px #300000;
