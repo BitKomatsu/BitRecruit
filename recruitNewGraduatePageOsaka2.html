@@ -3,71 +3,22 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
-		<title>(仮)BITリクルートサイト</title>
+		<title>新卒採用 大阪</title>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/jquery.bxslider.min.js"></script>
 		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 		<link href="css/jquery.bxslider.css" rel="stylesheet" />
-    	<script type="text/javascript">
-			$(document).ready(function(){
-				$('.bxslider').bxSlider({
-					auto: true,
-					speed: 500,
-					pause: 4000
-				});
-			});
-		</script>
 	</head>
 	<body>
-		<script type="text/javascript">
-			$(function(){
-			  $("#toggle").click(function(){
-			    $(".menu").slideToggle();
-			    return false;
-			  });
-			  $(window).resize(function(){
-			    var win = $(window).width();
-			    var p = 640;
-			    if(win > p){
-			      $(".menu").show();
-			    } else {
-			      $(".menu").hide();
-			    }
-			  });
-			});
-			$(function() {
-				var win = $(window).width();
-			    var p = 640;
-			    if(win < p)$(function(){
-					$(".menuList").click(function(){
-						$(".menu").hide();
-					});
-				});
-			});
-		</script>
-
-		<header>
-			<nav id="menu-box">
-			<div id="toggle"><img src="images/rogo.png" class="toggleRogo"><a href="#" class="toggleMenu">RECRUIT MENU</a></div>
-				<ul class="menu">
-					<li class="menuRogo"><a href="index.html"><img src="images/rogo.png" class="rogo"></a></li>
-					<li class="menuHome"><a href="index.html">ホーム</a></li>
-					<li class="menuList"><a href="#">会社概要<span class="menuLinkUnder">Company</span></a></li>
-					<li class="menuList"><a href="#">仕事内容<span class="menuLinkUnder">Work</span></a></li>
-					<li class="menuList"><a href="#">経営理念<span class="menuLinkUnder">Vision</span></a></li>
-					<li class="menuList"><a href="#">社員紹介<span class="menuLinkUnder">Produce</span></a></li>
-					<li class="menuList"><a href="#">福利厚生<span class="menuLinkUnder">Welfare</span></a></li>
-					<li class="menuList"><a href="#">募集要項<span class="menuLinkUnder">Recruit</span></a></li>
-				</ul>
-			</nav>
-		<div class="clear"></div>
-		</header>
+		<?php include("../inc/header.inc"); ?>
+		
 <div class="">
-</div>
-<div class="">
-	<h1 class="pageTitle">募集要項</h1>
-		<h2>新卒採用</h2>
+	<!-- 画像 -->
+	<div class="image">
+		<img src="./images/title06.png" alt="募集要項">
+	</div>
+		<h2>新卒採用 大阪</h2>
 		<dl class="recruitBox">
 			<dt class="recruitList">募集職種</dt>
 				<dd class="recruitListdd">
@@ -129,28 +80,6 @@
 			<div class="clear"></div>
 		</dl>
 		<div class="clear"></div>
-	</body>
-		<footer>
-			<hr>
-			<div class="LinkImageBox">
-				<div class="ricNaviImageBox">
-					<a href=""><img src="images/rn_logo_b.gif" class="ricNaviImage"></a>
-					<a href=""><img src="images/qr20180316101758793.png" class="LinkricNaviImageRespons"></a>
-				</div>
-				<a href=""><img src="images/facebook_link.gif" class="LinkFBImage"></a>
-			</div>
-			<div class="footerMenuBox">
-				<ul class="footerMenu">
-					<li class="footerMenu"><a href="" class="footerMenuLink">会社概要<a/></li>
-					<li class="footerMenu"><a href="" class="footerMenuLink">仕事内容<a/></li>
-					<li class="footerMenu"><a href="" class="footerMenuLink">経営理念<a/></li>
-					<li class="footerMenu"><a href="" class="footerMenuLink">社員紹介<a/></li>
-					<li class="footerMenu"><a href="" class="footerMenuLink">福利厚生<a/></li>
-					<li class="footerMenu"><a href="" class="footerMenuLink">募集要項<a/></li>
-				</ul>
-			</div>
-			<div class="clear"><div>
-			<p class="copyright">Copyright ©2018 BIT Ltd. All Rights Reserved.</p>
-		</footer>
+		<?php include("../inc/footer.inc"); ?>
 	</body>
 </html>

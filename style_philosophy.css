@@ -4,41 +4,35 @@
 @media screen and (min-width: 769px){
 
 	body{
-		width: 1366px;		/*全体の横幅*/
-		padding-left: 10%;		/* 両端に空白 */
+		width: 1200px;
+		padding-left: 10%;
 		padding-right: 10%;
 		font-family: "游ゴシック";
+		background-image: url(images/background_image.png);
+		margin: auto;
 	}
 
-	h1 {
-		background: #BDBDBD;    /*背景色*/
-		padding: 0.5em;         /*文字まわり（上下左右）の余白*/
-		font-size: 35;
+	.topImg {
 		text-align: center;
 	}
 
-	#container {
+	.slogan_container {
 		padding: 0 2em 0 2em;
 		margin-top: 2%;
 	}
 
-	h2{
-		text-align: left;
-		padding: .5em .75em;
-		background-color: #f6f6f6;
-		border-left: 6px solid #ccc;
-	}
+
 
 	/* 経営理念下見出し */
-	.text_1 {
+	.slogan_headderText {
 		text-align: center;
 		font-size: 25;
-		font-weight: 600; 		/* フォントの濃さ */
-		margin: 40px 170px;		/* 上下に空白 */
-		position: relative;		
+		font-weight: 600; 
+		margin: 40px 170px;
+		position: relative;
 		padding: 0.25em 0;
 	}
-	.text_1:after {		/* 見出し下線 */
+	.slogan_headderText:after {		/* 見出し下線 */
 		content: "";
 		display: block;
 		height: 4px;
@@ -47,9 +41,9 @@
 		background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
 	}
 
-	p#text_1_comment{
-		text-align: center;		/*文章中央揃え*/
-		line-height: 200%;	/* 行間 */
+	.slogan_mainText {
+		text-align: center;	
+		line-height: 200%;	
 		margin: 40px 60px 40px 60px;
 		font-size: 110%;
 	}
@@ -58,16 +52,23 @@
 
 	/************** 社長あいさつより下 ****************/
 
-	.container1 {
+	.greeting_wrapper {
 		position: relative;
 		padding: 0 2em 0 2em;
 	}
 
-	.top-words {
+	.wrap_greetingTitle {
 		margin-bottom: 10px;
 	}
+	
+	h2{
+		text-align: left;
+		padding: .5em .75em;
+		background-color: #f6f6f6;
+		border-left: 6px solid #ccc;
+	}
 
-	#wrap_president {
+	.wrap_upper_president {
 		padding: 0 2em;
 		height: 400px;
 		width: 100%;
@@ -75,7 +76,7 @@
 		display: table;
 	}
 
-	.president_comment {
+	.upper_presidentComment {
 		width: 55%;
 		height: 100%;
 		margin: 20px;
@@ -85,15 +86,12 @@
 		vertical-align: top;
 	}
 
-	.president {
+	.presidentImg {
 		display: table-cell;
 		width: 100%;
 		padding: 0 0 0 40px;
 	}
 
-	img {
-
-	}
 
 	.presidentName {
 		width: auto;
@@ -105,7 +103,7 @@
 	    clear:both;
 	}
 
-	#wrapper_list{
+	.wrapper_list{
 		text-align: center;
 		width: 100%;
 		background-color: #F5F6E2;
@@ -119,7 +117,7 @@
 	    padding: 0;
 	}
 
-	p#p1 {
+	p.list_headderWord {
 		text-align: center;
 		font-size: 120%;
 		font-weight: 545;
@@ -131,29 +129,27 @@
 	.list{
 		font-size: 140%;
 		line-height:250%;
-		width: 43%;
+		width: 50%;
 	    padding: 18px 20px 18px 25px;
-	    margin: 1.5em 0 2em 16em;
+	    margin: 1.5em 0 2em 12em;
 	    color: #000000;
 	    border-top: double 7px #300000;
 	    border-bottom: double 7px #300000;
 		font-weight: 800;
 	}
 
-	p#p2 {
+	.list_text {
 		color: #330000;
 		margin: 0;
 	}
 	
-	p#p3 {
+	.bottom_presidentComment {
 		padding: 0;
 		line-height:200%;
 	}
 
 
 }
-
-
 
 
 
@@ -165,19 +161,19 @@
 
 
 	body{
-		/*width: 1366px;		全体の横幅*/
+		/*width: 1366px;*/
 		padding-left: 10%;
 		padding-right: 10%;
 	}
 
 	h1 {
-		background: #BDBDBD;    /*背景色*/
-		padding: 0.5em;         /*文字まわり（上下左右）の余白*/
+		background: #BDBDBD;
+		padding: 0.5em;
 		font-size: 35;
 		text-align: center;
 	}
 
-	.text_1 {
+	.slogan_headderText {
 		text-align: center;
 		font-size: 16;
 		font-weight: 600; 
@@ -185,7 +181,7 @@
 		position: relative;
 		padding: 0.25em 0;
 	}
-	.text_1:after {
+	.slogan_headderText:after {
 		content: "";
 		display: block;
 		height: 4px;
@@ -194,23 +190,18 @@
 		background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
 	}
 
-	p {
-		text-align: center;		/*文章中央揃え*/
-		line-height:200%	
-		padding-left:2em;
-		font-size: 14;
-	}
+
 
 
 	/************** 社長あいさつより下 ****************/
 
 
 
-	.container1 {
+	.greeting_wrapper {
 		position: relative;
 	}
 
-	.top-words {
+	.wrap_greetingTitle {
 		display: block;
 		text-align: center;
 	}
@@ -234,23 +225,28 @@
 		margin-top: 20px;
 	}
 
-	.president_comment {
-		display: block;
-		line-height: 300%
-	}
 
 
 	#wrapper_list{
 		text-align: center;
 	}
+	
+	p.list_headderWord {
+		text-align: center;
+		font-size: 100%;
+		font-weight: 545;
+		color: #300000;
+		-webkit-text-stroke:0.6px #300000;
+		margin: 2% 0 1% 0;
+	}
 
 
 	.list{
-		font-size: 140%;
+		font-size: 120%;
 		width: 75%;
 	    padding: 8px 30px;
 	    margin: 2em 0 2em 1.5em;
-	    color: #000000;
+	    color: #330000;
 	    border-top: double 7px #000000;
 	    border-bottom: double 7px #000000;
 		font-weight: 800;
@@ -261,17 +257,10 @@
 	    padding: 0;
 	}
 
-	p#p1 {
-		text-align: center;
-		font-size: 120%;
-		font-weight: boilder;
+	.list_text {
+		color: #330000;
+		margin: 0;
 	}
-
-	p#p2 {
-		padding: 0;
-		line-height:300%;
-	}
-
 
 
 }
@@ -293,7 +282,7 @@
 		padding: 0.5em;         /*文字まわり（上下左右）の余白*/
 	}
 
-	.text_1 {
+	.slogan_headderText {
 		text-align: center;
 		font-size: 16;
 		font-weight: 600; 
@@ -301,7 +290,7 @@
 		position: relative;
 		padding: 0.25em 0;
 	}
-	.text_1:after {
+	.slogan_headderText:after {
 		content: "";
 		display: block;
 		height: 4px;
@@ -310,25 +299,6 @@
 		background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
 	}
 
-
-	p#text_1_comment {
-		text-align: center;		/*文章中央揃え*/
-		line-height: 180%;	
-		padding-left:2em;
-		font-size: 80%;
-	}
-
-
-
-	/************** 社長あいさつより下 ****************/
-
-	.president_comment {
-		font-size: 80%;
-	}
-
-	.presidentName {
-		font-size: 80%;
-	}
 
 
 }
