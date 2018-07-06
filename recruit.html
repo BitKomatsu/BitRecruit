@@ -12,6 +12,14 @@
 	</head>
 	<body>
 		<?php include("../inc/header.inc"); ?>
+
+		<!-- パンくずリスト -->
+		<div class="">
+			<a href="index.html" class="">
+				HOME
+			</a>
+			> 募集要項
+		</div>
 			
 		<div class="">
 			<!-- 画像 -->
@@ -19,8 +27,10 @@
 				<img src="./images/title06.png" alt="募集要項">
 			</div>
 			<!-- //画像 -->
-			<div class="">
-			<h2>新卒採用</h2>
+			
+			<div class="imageMarginBox">
+				<img src="./images/recruit_sub1.png">
+			</div>
 			<dl class="recruitBox">
 				<dt class="recruitList">大阪</dt>
 					<dd class="recruitListdd">
@@ -36,7 +46,9 @@
 				</dt>
 			</dl>
 			
-			<h2>中途採用</h2>
+			<div class="imageMarginBox">
+				<img src="./images/recruit_sub2.png">
+			</div>
 			<dl class="recruitBox">
 				<dt class="recruitList">大阪</dt>
 					<dd class="recruitListdd">
@@ -51,8 +63,8 @@
 					</dd>
 				</dt>
 			</dl>
-			<div class="clear"></div>
-			<?php include("../inc/footer.inc"); ?>
 		</div>
+		<div class="clear"></div>
+		<?php include("../inc/footer.inc"); ?>
 	</body>
 </html>

@@ -22,7 +22,10 @@ img {
 	width:200px;
 	margin:50px auto ;
 }
-
+body{
+	background-image:url("./images/background.png");
+	font-family: 游ゴシック体, serif;
+}
 .clear {
 	clear:both;
 }
@@ -125,10 +128,18 @@ img {
 	    display: inline-block;
 	    top: 0px;
 	    font-size: 1.4em;
-	    font-family: 游明朝, serif;
 	    color: rgb(41, 51, 131);
 	    padding: 0.25em 0;
 	    margin:auto;
+	}
+	.imageMarginBox{
+		margin:25px 0px;
+	}
+	
+	.walfareText{
+		width: 85%;
+		font-size:1.2em;
+		margin:10px auto 25px auto;
 	}
 }
 
