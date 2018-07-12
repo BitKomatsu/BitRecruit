@@ -4,7 +4,7 @@
 
 /* bodyの両サイドに余白を作る */
 .overview {
-	background-image: url(images/back.png);
+	background-image: url(images/background.png);
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
