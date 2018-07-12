@@ -12,7 +12,7 @@
 		margin: auto;
 	}
 
-	.topImg {
+	.title {
 		text-align: center;
 	}
 
@@ -111,12 +111,6 @@
 		margin: 2% 0;
 	}
 
-	.list p {
-		text-align: left;
-	    margin: 10px 0 10px 10px; 
-	    padding: 0;
-	}
-
 	p.list_headderWord {
 		text-align: center;
 		font-size: 120%;
@@ -138,7 +132,15 @@
 		font-weight: 800;
 	}
 
-	.list_text {
+	.list_text_1 {
+		color: #330000;
+		margin: 0;
+	}
+	.list_text_2 {
+		color: #330000;
+		margin: 0;
+	}
+	.list_text_3 {
 		color: #330000;
 		margin: 0;
 	}
@@ -164,6 +166,10 @@
 		/*width: 1366px;*/
 		padding-left: 10%;
 		padding-right: 10%;
+	}
+	
+	.title {
+		text-align: center;
 	}
 
 	h1 {
@@ -243,23 +249,33 @@
 
 	.list{
 		font-size: 120%;
-		width: 75%;
+		width: 74%;
 	    padding: 8px 30px;
-	    margin: 2em 0 2em 1.5em;
+	    margin: 5% 4%;
 	    color: #330000;
 	    border-top: double 7px #000000;
 	    border-bottom: double 7px #000000;
 		font-weight: 800;
-	}
-	.list p {
-		text-align: left;
-	    margin: 10px 0 10px 10px; 
-	    padding: 0;
+		padding-left: 50px;
 	}
 
-	.list_text {
+	.list_text_1 {
 		color: #330000;
-		margin: 0;
+	    margin: 0 5%;
+	    padding: 0 10%;
+	    text-indent: -2em;
+	}
+	.list_text_2 {
+		color: #330000;
+	    margin: 0 5%;
+	    padding: 0 10%;
+	    text-indent: -2em;
+	}
+	.list_text_3 {
+		color: #330000;
+	    margin: 0 5%;
+	    padding: 0 10%;
+	    text-indent: -2em;
 	}
 
 
@@ -297,6 +313,18 @@
 		background: -moz-linear-gradient(to right, rgb(0, 60, 250), transparent);
 		background: -webkit-linear-gradient(to right, rgb(0, 60, 250), transparent);
 		background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
+	}
+	
+	.list{
+		font-size: 95%;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		color: #330000;
+		border-top: double 7px #000000;
+		border-bottom: double 7px #000000;
+		font-weight: 800;
+		/* padding-left: 50px; */
 	}
 
 

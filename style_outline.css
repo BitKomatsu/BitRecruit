@@ -3,21 +3,20 @@
 ******************************** */
 
 body{
-	width: 1366px;		/*全体の横幅*/
-	padding-left: 10%;		/* 両端に空白 */
+	width: 1200px;
+	padding-left: 10%;
 	padding-right: 10%;
 	font-family: "游ゴシック";
 	background-image: url(images/background_image.png);
 }
 
-/* 会社概要部分*/
-h1 {
-background: #BDBDBD;    /*背景色*/
-padding: 0.5em;         /*文字まわり（上下左右）の余白*/
+.title {
+	text-align:center;
 }
 
-.overview {
-	width:80%;
+h1 {
+background: #BDBDBD;
+padding: 0.5em;
 }
 
 .outline_wrapper {
@@ -81,18 +80,17 @@ hr {
 
 
 
-/* bodyの両サイドに余白を作る */
 .overview{
 	padding-left: 5%;
 	padding-right: 5%;
-	font-size: 0.95em;	/* タブレット用変更箇所 */
+	font-size: 0.95em;
 	max-width: 768px;
 }
 
-/* 会社概要部分*/
+
 h1 {
-	background: #BDBDBD;    /*背景色*/
-	padding: 0.5em;         /*文字まわり（上下左右）の余白*/
+	background: #BDBDBD;
+	padding: 0.5em;
 }
 
 .address {
@@ -120,18 +118,16 @@ h1 {
 
 
 
-/* bodyの両サイドに余白を作る */
 .overview{
 	padding-left: 5%;
 	padding-right: 5%;
-	font-size: 0.85em;	/* スマホ用変更箇所 */
+	font-size: 0.85em;
 	max-width: 640px;
 }
 
-/* 会社概要部分*/
 h1 {
-background: #BDBDBD;    /*背景色*/
-padding: 0.5em;         /*文字まわり（上下左右）の余白*/
+	background: #BDBDBD;
+	padding: 0.5em;
 }
 
 .address {
