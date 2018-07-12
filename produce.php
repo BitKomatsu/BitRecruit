@@ -7,24 +7,28 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
 		<title>(仮)BITリクルートサイト</title>
-		<link rel="stylesheet" href="style_produce.css" type="text/css" media="screen">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/jquery.bxslider.min.js"></script>
-		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
-		<link href="css/jquery.bxslider.css" rel="stylesheet" />
-    	<script type="text/javascript">
-			$(document).ready(function(){
-				$('.bxslider').bxSlider({
-					auto: true,
-					speed: 500,
-					pause: 4000
-				});
+		<link rel="stylesheet" href="modaal.css">
+		<script src='//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script src="modaal.min.js"></script>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+		<script type="text/javascript">
+			$(document).on('click', '.open-options', function(event) {
+		  		event.preventDefault();
+		  		$('#modal-options').iziModal('open');
+			});
+			$('#modal-options').iziModal({
+		  		headerColor: '#26A69A', //ヘッダー部分の色
+		  		width: 400, //横幅
+				overlayColor: 'rgba(0, 0, 0, 0.5)', //モーダルの背景色
+				fullscreen: true, //全画面表示
+				transitionIn: 'fadeInUp', //表示される時のアニメーション
+				transitionOut: 'fadeOutDown' //非表示になる時のアニメーション
 			});
 		</script>
+
 	</head>
 	<body>
 <div class="wrapper">
-
 		<script type="text/javascript">
 			$(function(){
 			  $("#toggle").click(function(){
@@ -54,7 +58,16 @@
 <?php
 	include("./inc/header.inc");
 ?>
-		
+
+<!-- パンくずリスト -->
+<div class="">
+	<a href="index.html" class="">
+		HOME
+	</a>
+		> 社員紹介
+</div>
+
+	
 <!-- 画像 -->
 <div class="image">
 	<img src="./images/title04.png" alt="社員紹介">
@@ -65,7 +78,7 @@
 <div class="nakama">
 	<img src="./images/produce_sub1.png">
 		<div class="contain">
-			<h2>愉快な仲間たち</h2><p>
+			<h1 class="msr_h102">愉快な仲間たち</h1><p>
 				<div class="text">
 				<span>よくある言葉ですが、やっぱりそれが一番しっくり来る感じです。<br/>
 				bitにはいろんな人がいます。<br/>
@@ -91,22 +104,22 @@
 		</div>
 <!-- 紹介 -->
 		<div class="shain">
-			<div class="shainImg"><img src="./images/shain01.png" width="300px">
+			<div class="shainImg"><img src="./images/shain01.png" width="250px">
 			<p>高田　秀二</p>
 			</div>
-			<div class="shainImg"><img src="./images/shain02.png" width="300px">
+			<div class="shainImg"><img src="./images/shain02.png" width="250px">
 			<p>吉村　勇人</p>
 			</div>
-			<div class="shainImg"><img src="./images/shain03.png" width="300px">
+			<div class="shainImg"><img src="./images/shain03.png" width="250px">
 			<p>吉田　亮</p>
 			</div>
-			<div class="shainImg"><img src="./images/shain04.png" width="300px">
+			<div class="shainImg"><img src="./images/shain04.png" width="250px">
 			<p>山内　明</p>
 			</div>
-			<div class="shainImg"><img src="./images/shain05.png" width="300px">
+			<div class="shainImg"><img src="./images/shain05.png" width="250px">
 			<p>小松　弘樹</p>
 			</div>
-			<div class="shainImg"><img src="./images/shain06.png" width="300px">
+			<div class="shainImg"><img src="./images/shain06.png" width="250px">
 			<p>辻本　早季</p>
 			</div>
 		</div>
