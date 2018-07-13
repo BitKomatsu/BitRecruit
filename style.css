@@ -148,7 +148,6 @@ body{
 ===============================================*/
 @media screen and (max-width: 768px){
 	/* 全体部分 */
-	/* 全体部分 */
 	html{
 	    scroll-behavior: smooth;
 	}
@@ -158,6 +157,15 @@ body{
 	    margin-right: auto;
 	    margin-left: auto;
 	    font-family: "游ゴシック";
+	}
+
+	.image{
+		width:50%;
+		margin:50px auto ;
+	}
+	
+	.titleImage{
+		width:100%;
 	}
 	.clear { clear:both;}
 	
@@ -275,6 +283,13 @@ body{
 	    margin-right: auto;
 	    margin-left: auto;
 	    font-family: "游ゴシック";
+	}
+	.image{
+		width:60%;
+		margin:50px auto ;
+	}
+	.titleImage{
+		width:100%;
 	}
 	.clear { clear:both;}
 	
