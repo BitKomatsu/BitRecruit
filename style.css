@@ -1,4 +1,3 @@
-@charset "utf-8";
 
 *{
 	font-size:0.98em;
@@ -7,28 +6,156 @@
 	padding:0;
 	font-family:游ゴシック,serif;
 	line-height:2em;
+
 }
 
-html{
-    scroll-behavior: smooth;
-	overflow-y:scroll;
+body{
+	background-image:url("./images/back_image.png");
 }
 
-img {
-	border:0;
+.contain{
+	margin:20px;
 }
 
+.clear{
+	clear:both;
+}
+
+/*===============================================
+●画像
+================================================*/
 .image{
 	width:200px;
 	margin:50px auto ;
 }
-body{
-	background-image:url("./images/background.png");
-	font-family: 游ゴシック体, serif;
+
+
+/*===============================================
+●社風
+================================================*/
+.nakama{
+	width:1000;
+	margin:0 auto;
+	text-align:left;
 }
-.clear {
-	clear:both;
+
+.text{
+	margin-top:15px;
 }
+
+.msr_h102 {
+  background: #1B73BA;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding: 8px 10px;
+  position: relative;
+  width: 30%;
+}
+
+/* h1青の三角形 */
+.msr_h102:before {
+  border: 10px solid transparent;
+  border-top: 10px solid #1B73BA;
+  content: "";
+  height: 0;
+  left: 10px;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+
+h2 {
+	width:30%;
+	line-height:1.3em;
+	font-size:1.5em;
+	background: linear-gradient(transparent 60%, #a7d6ff 60%);
+}
+
+/*
+h2{
+	position: relative;
+	line-height: 1.4;
+	padding:0.25em 1em;
+	display: inline-block;
+	top:0;
+	font-size:1.3em;
+	font-family:游明朝,serif;
+	color:#293383;
+}
+
+h2:before,h2:after{ 
+	position: absolute;
+	top: 0;
+	content:'';
+	width: 8px;
+	height: 100%;
+	display: inline-block;
+}
+
+h2:before{
+	border-left: solid 1px black;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	left: 0;
+}
+
+h2:after{
+	content: '';
+	border-top: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	right: 0;
+}
+*/
+
+
+/*===============================================
+●スタッフ
+================================================*/
+.staff{
+	width:1000;
+	margin:50px auto;
+	text-align:left;
+}
+
+.shain{
+	display:block;
+	width:1000px;
+	height:auto;
+	margin:20px auto;
+}
+
+.shainImg{
+	display:inline-block;
+	width:300px;
+	height:300px;
+	margin-right:30px;
+	float:left;
+	text-align:center;
+	
+}
+
+.shainImg p{
+	text-align:center;
+}
+
+/*===============================================
+●紹介
+================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*===============================================
 ●style.css PC 画面の横幅が769px以上
@@ -38,7 +165,6 @@ body{
 	/* 全体部分 */
 	html{
     scroll-behavior: smooth;
-	overflow-y:scroll;
 	}
 	body {
 	    width: 1200px;
@@ -101,6 +227,145 @@ body{
 
 	.copyright{text-align:center; font-size: 13px; margin-top: 0; padding: 0 0; height:40px; line-height: 40px;}
 
+	/* 社員紹介関連 */
+	.pageTitle {
+		font-size: 50px;
+		text-align: center;
+		background: lightgray;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	
+	.testFrame{ width: 200px; height: 300px; border: solid 1px black; }
+	.staffCenter{ width: 755px; margin:auto; padding:auto;}
+	.center{width:200px;text-align:center; float:left; margin:0px 25px 25px 25px;}
+
+	.popupModal1 > input 
+	{ /* ラジオボックス非表示 */
+	    display: none;
+	}
+	.popupModal1 > input:nth-child(1) + label { 
+	    cursor: pointer;
+	}
+	.modalPopup2 { /* 初期設定 ポップアップ非表示 */
+	    display: none;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 
+	{/* ラジオ１ チェックでポップアップ表示 */
+	    display: block;
+	    z-index: 998;
+	    position: fixed;
+	    width: 90%;
+	    height: 80%;
+	    border-radius: 20px;
+	    left: 50%;
+	    top: 50%;
+	    margin-top: 30px;
+	    -webkit-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);
+	    background: #fff;
+	    padding: 10px 20px;
+	    overflow: hidden;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2
+	{
+         width: 600px;
+         height: 600px;
+         padding: 30px;
+
+    }
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label {
+	     left: 50% !important;
+	     top: 50% !important;
+	     margin-left: 270px !important;
+	     margin-top: -310px !important;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div {/* */
+	    overflow:auto;
+	    -webkit-overflow-scrolling:touch;
+	    display: inline-block;
+	    width: 100%;
+	    height: 100%;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > iframe {
+	    width: 100%;
+	      height:100%;
+	      border:none;
+	      display:block;
+	}
+
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > img {/* ポップアップの中の要素 */
+	max-width: 100%;
+	}
+	.popupModal1 > input:nth-child(1) + label ~ label {
+	    display: none;/* ラジオ１ 以外のラベルを初期は非表示 */
+
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label {
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0, 0, 0, 0.70);
+	    display: block;
+	    position: fixed;
+	    left: 0;
+	    top: 0;
+	    z-index: 997;
+	    text-indent: -999999px;
+	    overflow: hidden;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label {
+	    background: rgba(255, 255, 255, 0.5);
+	    display: inline-block;
+	    position: fixed;
+	    left: 10px;
+	    bottom: 20px;
+	    z-index: 999;
+	    width: 44pt;
+	    height: 44pt;
+	    font-size: 40px;
+	    border-radius: 50%;
+	    line-height: 44pt;
+	    text-align: center;
+	    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+	}
+
+	.popupModal1 > input:nth-child(1) + label + input:nth-child(3):checked + label + input:nth-child(5) + label + .modalPopup2,
+	.popupModal1 > input:nth-child(1) + label + input:nth-child(3) + label + input:nth-child(5):checked + label + .modalPopup2 
+	{
+	 /* ラジオ２と３ どっちかチェックでポップアップ非表示 */
+	    display: none;
+	}
+
+
+	.modalPopup2 {
+	    animation: fadeIn 1s ease 0s 1 normal;
+	    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+	}
+
+	@keyframes fadeIn {
+	    0% {opacity: 0}
+	    100% {opacity: 1}
+	}
+	@-webkit-keyframes fadeIn {
+	    0% {opacity: 0}
+	    100% {opacity: 1}
+	}
+
+	.popupModal1 .modalTitle {
+	     padding-bottom: .5em;
+	     margin: .5em 0;
+	     border-bottom:
+	     1px solid #ccc;
+	     font-weight: bold;
+	}
+	.popupModal1 .modalMain {
+	     color:#222;
+	     text-align: left;
+	     font-size: 14px;
+	     line-height: 1.8em;
+	}
+
 	/* 募集要項関連 */
 	.recruitTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
 	.recruitBox{width:85%; display: block; margin:auto; margin-bottom:50px; padding:auto;}
@@ -121,25 +386,6 @@ body{
 	.square_btn:active {
 	    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
 	    transform: translateY(2px);
-	}
-	h2 {
-	    position: relative;
-	    line-height: 1.4;
-	    display: inline-block;
-	    top: 0px;
-	    font-size: 1.4em;
-	    color: rgb(41, 51, 131);
-	    padding: 0.25em 0;
-	    margin:auto;
-	}
-	.imageMarginBox{
-		margin:25px 0px;
-	}
-	
-	.walfareText{
-		width: 85%;
-		font-size:1.2em;
-		margin:10px auto 25px auto;
 	}
 }
 
@@ -243,6 +489,126 @@ body{
 	.footerMenuLink:active {color: white; text-decoration: none;}
 
 	.copyright{text-align:center; font-size: 2vw; padding-top: 15px; background-color: #1f499d;}
+
+
+	/* 社員紹介関連 */
+	.pageTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
+	
+	.testFrame{ width: 200px; height: 300px; border: solid 5px #008080; }
+	
+	.popupModal1 > input 
+	{ /* ラジオボックス非表示 */
+	    display: none;
+	}
+	.popupModal1 > input:nth-child(1) + label { 
+	    cursor: pointer;
+	}
+	.modalPopup2 { /* 初期設定 ポップアップ非表示 */
+	    display: none;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 
+	{/* ラジオ１ チェックでポップアップ表示 */
+	    display: block;
+	    z-index: 998;
+	    position: fixed;
+	    width: 90%;
+	    height: 80%;
+	    border-radius: 20px;
+	    left: 50%;
+	    top: 50%;
+	    margin-top: 30px;
+	    -webkit-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);
+	    background: #fff;
+	    padding: 10px 20px;
+	    overflow: hidden;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div {/* */
+	    overflow:auto;
+	    -webkit-overflow-scrolling:touch;
+	    display: inline-block;
+	    width: 100%;
+	    height: 100%;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > iframe {
+	    width: 100%;
+	      height:100%;
+	      border:none;
+	      display:block;
+	}
+
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > img {/* ポップアップの中の要素 */
+	max-width: 100%;
+	}
+	.popupModal1 > input:nth-child(1) + label ~ label {
+	    display: none;/* ラジオ１ 以外のラベルを初期は非表示 */
+
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label {
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0, 0, 0, 0.70);
+	    display: block;
+	    position: fixed;
+	    left: 0;
+	    top: 0;
+	    z-index: 997;
+	    text-indent: -999999px;
+	    overflow: hidden;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label {
+	    background: rgba(255, 255, 255, 0.5);
+	    display: inline-block;
+	    position: fixed;
+	    left: 10px;
+	    bottom: 20px;
+	    z-index: 999;
+	    width: 44pt;
+	    height: 44pt;
+	    font-size: 40px;
+	    border-radius: 50%;
+	    line-height: 44pt;
+	    text-align: center;
+	    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+	}
+
+	.popupModal1 > input:nth-child(1) + label + input:nth-child(3):checked + label + input:nth-child(5) + label + .modalPopup2,
+	.popupModal1 > input:nth-child(1) + label + input:nth-child(3) + label + input:nth-child(5):checked + label + .modalPopup2 
+	{
+	 /* ラジオ２と３ どっちかチェックでポップアップ非表示 */
+	    display: none;
+	}
+
+
+	.modalPopup2 {
+	    animation: fadeIn 1s ease 0s 1 normal;
+	    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+	}
+
+	@keyframes fadeIn {
+	    0% {opacity: 0}
+	    100% {opacity: 1}
+	}
+	@-webkit-keyframes fadeIn {
+	    0% {opacity: 0}
+	    100% {opacity: 1}
+	}
+
+	.popupModal1 .modalTitle {
+	     padding-bottom: .5em;
+	     margin: .5em 0;
+	     border-bottom:
+	     1px solid #ccc;
+	     font-weight: bold;
+	}
+	.popupModal1 .modalMain {
+	     color:#222;
+	     text-align: left;
+	     font-size: 14px;
+	     line-height: 1.8em;
+	}
+
 
 	/* 募集要項関連 */
 	.recruitTitle { font-size: 6vw; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
@@ -365,6 +731,126 @@ body{
 	.footerMenuLink:active {color: black; text-decoration: none;}
 
 	.copyright{text-align:center; font-size: 2vw; padding-top: 15px; background-color:#1f499d;}
+
+	/* 社員紹介関連 */
+	.pageTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
+	.popupModal1 > input 
+	{ /* ラジオボックス非表示 */
+	    display: none;
+	}
+	.popupModal1 > input:nth-child(1) + label { 
+	    cursor: pointer;
+	}
+	.modalPopup2 { 
+		/* 初期設定 ポップアップ非表示 */
+	    display: none;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 
+	{/* ラジオ１ チェックでポップアップ表示 */
+	    display: block;
+	    z-index: 998;
+	    position: fixed;
+	    width: 90%;
+	    height: 80%;
+	    border-radius: 20px;
+	    left: 50%;
+	    top: 50%;
+	    margin-top: 30px;
+	    -webkit-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);
+	    background: #fff;
+	    padding: 10px 20px;
+	    overflow: hidden;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div {/* */
+	    overflow:auto;
+	    -webkit-overflow-scrolling:touch;
+	    display: inline-block;
+	    width: 100%;
+	    height: 100%;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > iframe {
+	    width: 100%;
+	      height:100%;
+	      border:none;
+	      display:block;
+	}
+
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > img {/* ポップアップの中の要素 */
+	max-width: 100%;
+	}
+	.popupModal1 > input:nth-child(1) + label ~ label {
+	    display: none;/* ラジオ１ 以外のラベルを初期は非表示 */
+
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label {
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0, 0, 0, 0.70);
+	    display: block;
+	    position: fixed;
+	    left: 0;
+	    top: 0;
+	    z-index: 997;
+	    text-indent: -999999px;
+	    overflow: hidden;
+	}
+	.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label {
+	    background: rgba(255, 255, 255, 0.5);
+	    display: inline-block;
+	    position: fixed;
+	    left: 10px;
+	    bottom: 20px;
+	    z-index: 999;
+	    width: 44pt;
+	    height: 44pt;
+	    font-size: 40px;
+	    border-radius: 50%;
+	    line-height: 44pt;
+	    text-align: center;
+	    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+	}
+
+	.popupModal1 > input:nth-child(1) + label + input:nth-child(3):checked + label + input:nth-child(5) + label + .modalPopup2,
+	.popupModal1 > input:nth-child(1) + label + input:nth-child(3) + label + input:nth-child(5):checked + label + .modalPopup2 
+	{
+	 /* ラジオ２と３ どっちかチェックでポップアップ非表示 */
+	    display: none;
+	}
+
+
+	.modalPopup2 {
+	    animation: fadeIn 1s ease 0s 1 normal;
+	    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+	}
+
+	@keyframes fadeIn {
+	    0% {opacity: 0}
+	    100% {opacity: 1}
+	}
+	@-webkit-keyframes fadeIn {
+	    0% {opacity: 0}
+	    100% {opacity: 1}
+	}
+
+	.popupModal1 .modalTitle {
+	     padding-bottom: .5em;
+	     margin: .5em 0;
+	     border-bottom:
+	     1px solid #ccc;
+	     font-weight: bold;
+	}
+	.popupModal1 .modalMain {
+	     color:#222;
+	     text-align: left;
+	     font-size: 14px;
+	     line-height: 1.8em;
+	}
+
+
+
+
 
 	/* 募集要項関連 */
 	.recruitTitle { font-size: 7vw; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
