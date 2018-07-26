@@ -48,29 +48,29 @@
 		</a>
 		> 会社概要
 	</div>
-	<div class="title">
+	<div class="outline_title">
 		<img src="images/title01.png">
 	</div>
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			会社名
 		</span>
 		<span class="container">
 			株式会社ビーアイテイ(略称 BIT)
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			設立
 		</span>
 		<span class="container">
 			1983年9月16日
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			役員
 		</span>
 		<span class="container">
@@ -85,27 +85,27 @@
 			執行役員　大黒　良司
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			資本金
 		</span>
 		<span class="container">
 			3,000万円
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			社員数
 		</span>
 		<span class="container">
 			53名（平均年齢38歳【H29.07.01現在】）
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			取引銀行
 		</span>
 		<span class="container">
@@ -113,9 +113,9 @@
 			みずほ銀行　大阪支店
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			許認可
 		</span>
 		<span class="container">
@@ -123,9 +123,9 @@
 			プライバシーマーク　20001691号（2012年3月13日）
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			業務内容
 		</span>
 		<span class="container">
@@ -138,9 +138,9 @@
 			</ul>
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			加入団体
 		</span>
 		<span class="container">
@@ -148,9 +148,9 @@
 			日本Linux協会
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			認定パートナー
 		</span>
 		<span class="container">
@@ -171,9 +171,9 @@
 			</div>
 		</span>
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			大阪本社
 		</span>
 		<span class="container">
@@ -190,9 +190,9 @@
 	</div>
 	<div class="clear">
 	</div>
-	<hr>
+	<hr class="outline_hr">
 	<div class="outline_wrapper">
-		<span class="index">
+		<span class="outline_index">
 			東京オフィス
 		</span>
 		<span class="container">

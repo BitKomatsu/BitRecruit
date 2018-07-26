@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META http-equiv="Content-Style-Type" content="text/css">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 <link href="style_philosophy.css" rel="stylesheet" type="text/css">
 <title>経営理念</title>
 </head>
@@ -16,7 +17,7 @@
 		</a>
 		> 経営理念
 	</div>
-	<div class="title"><img src="images/title03.png"></div>
+	<div class="philosophy_title"><img src="images/title03.png"></div>
 	<div class="slogan_container">
 		<div class="topImg"><img src="images/philosophy_sub1.png"></div>
 		<div class="slogan_headderText">
@@ -58,7 +59,7 @@
 	<div class="clear"></div>
 		<div class="wrapper_list">
 			<p class="list_headderWord">株式会社ビーアイテイが目指すことは</p>
-			<div class="list">
+			<div class="philosophy_list">
 				<p class="list_text_1">
 					１、全社員が一日を楽しく一年を愉快に過ごせる会社
 				</p>
