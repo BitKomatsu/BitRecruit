@@ -6,7 +6,7 @@
 		<title>福利厚生</title>
 	</head>
 	<body>
-		<?php include("../inc/header.inc"); ?>
+		<?php include("./inc/header.inc"); ?>
 		
 		<!-- パンくずリスト -->
 		<div class="">
@@ -196,6 +196,6 @@
 		<div>
 			<p class="walfareText">その他にも多数のサービスがご利用出来ます。詳しくは、<a href="https://bs.benefit-one.co.jp/bs/pages/bs/top/top.faces" target="_blank">ベネフィット・ステーション</a>よりご覧ください。</p>
 		</div>
-		<?php include("../inc/footer.inc"); ?>
+		<?php include("./inc/footer.inc"); ?>
 	</body>
 </html>
