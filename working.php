@@ -7,6 +7,10 @@
 	<title>(仮)仕事内容</title>
 </head>
 <body class="overview">
+<?php
+	include("./inc/header.inc");
+?>
+
 	<div class="title02">
 		<img src="images/title02.png" alt="タイトル" class="title02">
 	</div>

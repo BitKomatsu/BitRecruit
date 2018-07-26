@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
-		<link href="style_outline.css" rel="stylesheet" type="text/css">
 		<title>会社概要</title>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
