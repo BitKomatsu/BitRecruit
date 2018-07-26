@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<META http-equiv="Content-Style-Type" content="text/css">
 	<link href="style_working.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 	<title>(仮)仕事内容</title>
 </head>
 <body class="overview">
@@ -68,5 +69,8 @@
 		ご依頼・ご要望の内容は多岐にわたります。<br>
 		<br>
 	</div>
+<?php
+	include("./inc/footer.inc");
+?>
 </body>
 </html>
