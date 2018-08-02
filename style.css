@@ -31,185 +31,6 @@ body{
 
 
 
-/*===============================================
-●会社概要
-================================================*/
-/********** PC用 **********/
-.outline_title {
-	text-align:center;
-}
-
-.outline_wrapper {
-	height: 10%;
-	width: 100%;
-	margin: 0.5% 0;
-	display: table;
-}
-
-.outline_hr {
-  border-top: 1px solid #D8D8D8;
-  width: 100%;
-}
-
-.outline_index {
-	width: 20%;
-	background-color: #EFFBFB;
-	display: table-cell;
-	vertical-align: middle;
-	padding-left: 1%;
-}
-
-.container {
-	display: table-cell;
-	vertical-align: middle;
-	padding-left: 1%;
-}
-
-.partner {
-	padding-bottom: 2%;
-}
-
-.address {
-	float:left;
-	width: 50%;
-}
-
-/*各地図の位置*/
-.google-box {
-	float: right;
-    height: 430px;
-    width: 430px;
-}
-
-/*===============================================
-●経営理念
-================================================*/
-/********** PC用 **********/
-.philosophy_title {
-	text-align: center;
-}
-
-.slogan_container {
-	padding: 0 2em 0 2em;
-	margin-top: 2%;
-}
-
-	/* 経営理念下見出し */
-.slogan_headderText {
-	text-align: center;
-	font-size: 25;
-	font-weight: 600; 
-	margin: 40px 170px;
-	position: relative;
-	padding: 0.25em 0;
-}
-.slogan_headderText:after {		/* 見出し下線 */
-	content: "";
-	display: block;
-	height: 4px;
-	background: -moz-linear-gradient(to right, rgb(0, 60, 250), transparent);
-	background: -webkit-linear-gradient(to right, rgb(0, 60, 250), transparent);
-	background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
-}
-
-.slogan_mainText {
-	text-align: center;	
-	line-height: 200%;	
-	margin: 40px 60px 40px 60px;
-	font-size: 110%;
-}
-
-
-.greeting_wrapper {
-	position: relative;
-	padding: 0 2em 0 2em;
-}
-
-.wrap_greetingTitle {
-	margin-bottom: 10px;
-}
-
-
-
-.wrap_upper_president {
-	padding: 0 2em;
-	height: 400px;
-	width: 100%;
-	margin: 0 20px;
-	display: table;
-}
-
-.upper_presidentComment {
-	width: 55%;
-	height: 100%;
-	margin: 20px;
-	padding: 50px 0 30px 0;
-	line-height: 215%;
-	display: table-cell;
-	vertical-align: top;
-}
-
-.presidentImg {
-	display: table-cell;
-	width: 100%;
-	padding: 0 0 0 40px;
-}
-
-
-.presidentName {
-	width: auto;
-	margin: 10px 180px 0 0;
-	text-align:right;
-}
-
-
-
-.wrapper_list{
-	text-align: center;
-	width: 100%;
-	background-color: #F5F6E2;
-	padding: 1em 0 0.3em 0;
-	margin: 2% 0;
-}
-
-p.list_headderWord {
-	text-align: center;
-	font-size: 120%;
-	font-weight: 545;
-	color: #300000;
-	-webkit-text-stroke:0.6px #300000;
-	margin: 2% 0 1% 0;
-}
-
-.philosophy_list{
-	font-size: 140%;
-	line-height:250%;
-	width: 50%;
-    padding: 18px 20px 18px 25px;
-    margin: 1.5em 0 2em 12em;
-    color: #000000;
-    border-top: double 7px #300000;
-    border-bottom: double 7px #300000;
-	font-weight: 800;
-}
-
-.list_text_1 {
-	color: #330000;
-	margin: 0;
-}
-.list_text_2 {
-	color: #330000;
-	margin: 0;
-}
-.list_text_3 {
-	color: #330000;
-	margin: 0;
-}
-
-.bottom_presidentComment {
-	padding: 0;
-	line-height:200%;
-}
 
 
 /*===============================================
@@ -343,9 +164,14 @@ h2:after{
 ================================================*/
 
 @media screen and (min-width: 769px){
+
+	/*===============================================
+	●index画面
+	================================================*/
+	
 	/* 全体部分 */
 	html{
-    scroll-behavior: smooth;
+	    scroll-behavior: smooth;
 	}
 	body {
 	    width: 1200px;
@@ -568,12 +394,205 @@ h2:after{
 	    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
 	    transform: translateY(2px);
 	}
+	
+	
+	
+	/*===============================================
+	●会社概要
+	================================================*/
+	/********** PC用 **********/
+	.outline_title {
+		text-align:center;
+	}
+
+	.outline_wrapper {
+		height: 10%;
+		width: 100%;
+		margin: 0.5% 0;
+		display: table;
+	}
+
+	.outline_hr {
+	  border-top: 1px solid #D8D8D8;
+	  width: 100%;
+	}
+
+	.outline_index {
+		width: 20%;
+		background-color: #EFFBFB;
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 1%;
+	}
+
+	.container {
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 1%;
+	}
+
+	.partner {
+		padding-bottom: 2%;
+	}
+
+	.address {
+		float:left;
+		width: 50%;
+	}
+
+	/*各地図の位置*/
+	.google-box {
+		float: right;
+	    height: 430px;
+	    width: 430px;
+	}
+	
+	
+	
+	/*===============================================
+	●経営理念
+	================================================*/
+	/********** PC用 **********/
+	.philosophy_title {
+		text-align: center;
+	}
+
+	.slogan_container {
+		padding: 0 2em 0 2em;
+		margin-top: 2%;
+	}
+
+		/* 経営理念下見出し */
+	.slogan_headderText {
+		text-align: center;
+		font-size: 25;
+		font-weight: 600; 
+		margin: 40px 170px;
+		position: relative;
+		padding: 0.25em 0;
+	}
+	.slogan_headderText:after {		/* 見出し下線 */
+		content: "";
+		display: block;
+		height: 4px;
+		background: -moz-linear-gradient(to right, rgb(0, 60, 250), transparent);
+		background: -webkit-linear-gradient(to right, rgb(0, 60, 250), transparent);
+		background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
+	}
+
+	.slogan_mainText {
+		text-align: center;	
+		line-height: 200%;	
+		margin: 40px 60px 40px 60px;
+		font-size: 110%;
+	}
+
+
+	.greeting_wrapper {
+		position: relative;
+		padding: 0 2em 0 2em;
+	}
+
+	.wrap_greetingTitle {
+		margin-bottom: 10px;
+	}
+
+
+
+	.wrap_upper_president {
+		padding: 0 2em;
+		height: 400px;
+		width: 100%;
+		margin: 0 20px;
+		display: table;
+	}
+
+	.upper_presidentComment {
+		width: 55%;
+		height: 100%;
+		margin: 20px;
+		padding: 50px 0 30px 0;
+		line-height: 215%;
+		display: table-cell;
+		vertical-align: top;
+	}
+
+	.presidentImg {
+		display: table-cell;
+		width: 100%;
+		padding: 0 0 0 40px;
+	}
+
+
+	.presidentName {
+		width: auto;
+		margin: 10px 180px 0 0;
+		text-align:right;
+	}
+
+
+
+	.wrapper_list{
+		text-align: center;
+		width: 100%;
+		background-color: #F5F6E2;
+		padding: 1em 0 0.3em 0;
+		margin: 2% 0;
+	}
+
+	p.list_headderWord {
+		text-align: center;
+		font-size: 120%;
+		font-weight: 545;
+		color: #300000;
+		-webkit-text-stroke:0.6px #300000;
+		margin: 2% 0 1% 0;
+	}
+
+	.philosophy_list{
+		font-size: 140%;
+		line-height:250%;
+		width: 50%;
+	    padding: 18px 20px 18px 25px;
+	    margin: 1.5em 0 2em 12em;
+	    color: #000000;
+	    border-top: double 7px #300000;
+	    border-bottom: double 7px #300000;
+		font-weight: 800;
+	}
+
+	.list_text_1 {
+		color: #330000;
+		margin: 0;
+	}
+	.list_text_2 {
+		color: #330000;
+		margin: 0;
+	}
+	.list_text_3 {
+		color: #330000;
+		margin: 0;
+	}
+
+	.bottom_presidentComment {
+		padding: 0;
+		line-height:200%;
+	}
+
+
+
 }
 
 /*===============================================
 ●style.css タブレット 画面の横幅が768pxまで
 ===============================================*/
 @media screen and (max-width: 768px){
+
+
+	/*===============================================
+	●index画面
+	================================================*/
+	
 	/* 全体部分 */
 	html{
 	    scroll-behavior: smooth;
@@ -812,6 +831,127 @@ h2:after{
 	    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
 	    transform: translateY(2px);
 	}
+	
+	
+	
+	
+	
+	
+	
+	/*===============================================
+	●会社概要
+	================================================*/
+	
+	
+	.overview{
+		padding-left: 5%;
+		padding-right: 5%;
+		font-size: 0.95em;
+		max-width: 768px;
+	}
+
+	.address {
+		float:left;
+		width: 40%;
+	}
+
+	/*各地図の位置*/
+	.google-box {
+		float: right;
+	    /*width: 100%;*/
+	    height: 230px;
+	    width: 230px;
+	}
+	
+	
+	/*===============================================
+	●経営理念
+	================================================*/
+	
+	.philosophy_title {
+		text-align: center;
+	}
+
+	.slogan_headderText {
+		text-align: center;
+		font-size: 16;
+		font-weight: 600; 
+		margin: 50px 0;
+		position: relative;
+		padding: 0.25em 0;
+	}
+	.slogan_headderText:after {
+		content: "";
+		display: block;
+		height: 4px;
+		background: -moz-linear-gradient(to right, rgb(0, 60, 250), transparent);
+		background: -webkit-linear-gradient(to right, rgb(0, 60, 250), transparent);
+		background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
+	}
+
+	/************** 社長あいさつより下 ****************/
+
+	.greeting_wrapper {
+		position: relative;
+	}
+
+	.wrap_greetingTitle {
+		display: block;
+		text-align: center;
+	}
+
+	.presidentName {
+		text-align: right;
+		margin-top: 20px;
+	}
+
+
+
+	#wrapper_list{
+		text-align: center;
+	}
+	
+	p.list_headderWord {
+		text-align: center;
+		font-size: 100%;
+		font-weight: 545;
+		color: #300000;
+		-webkit-text-stroke:0.6px #300000;
+		margin: 2% 0 1% 0;
+	}
+
+
+	.philosophy_list{
+		font-size: 120%;
+		width: 74%;
+	    padding: 8px 30px;
+	    margin: 5% 4%;
+	    color: #330000;
+	    border-top: double 7px #000000;
+	    border-bottom: double 7px #000000;
+		font-weight: 800;
+		padding-left: 50px;
+	}
+
+	.list_text_1 {
+		color: #330000;
+	    margin: 0 5%;
+	    padding: 0 10%;
+	    text-indent: -2em;
+	}
+	.list_text_2 {
+		color: #330000;
+	    margin: 0 5%;
+	    padding: 0 10%;
+	    text-indent: -2em;
+	}
+	.list_text_3 {
+		color: #330000;
+	    margin: 0 5%;
+	    padding: 0 10%;
+	    text-indent: -2em;
+	}
+
 
 
 }
@@ -820,6 +960,12 @@ h2:after{
 ●style.css スマホ 画面の横幅が640pxまで
 ===============================================*/
 @media screen and (max-width:640px){
+
+
+	/*===============================================
+	●index画面
+	================================================*/
+	
 	/* 全体部分 */
 	html{
 	    scroll-behavior: smooth;
@@ -1053,6 +1199,66 @@ h2:after{
 	.square_btn:active {
 	    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
 	    transform: translateY(2px);
+	}
+	
+	
+	/*===============================================
+	●会社概要
+	================================================*/
+	
+	.overview{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 0.85em;
+	max-width: 640px;
+	}
+
+	.address {
+		float:left;
+		width: 40%;
+	}
+
+	/*各地図の位置*/
+	.google-box {
+		float: right;
+	    /*width: 100%;*/
+	    height: 230px;
+	    width: 230px;
+	}
+	
+	
+	
+	/*===============================================
+	●経営理念
+	================================================*/
+	
+	.slogan_headderText {
+		text-align: center;
+		font-size: 16;
+		font-weight: 600; 
+		margin: 50px 0;
+		position: relative;
+		padding: 0.25em 0;
+	}
+	.slogan_headderText:after {
+		content: "";
+		display: block;
+		height: 4px;
+		background: -moz-linear-gradient(to right, rgb(0, 60, 250), transparent);
+		background: -webkit-linear-gradient(to right, rgb(0, 60, 250), transparent);
+		background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
+	}
+	
+	.philosophy_list{
+		font-size: 95%;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		color: #330000;
+		border-top: double 7px #000000;
+		border-bottom: double 7px #000000;
+		font-weight: 800;
+		/* padding-left: 50px; */
 	}
 
 

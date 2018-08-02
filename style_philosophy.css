@@ -33,14 +33,7 @@
 		padding-right: 10%;
 	}
 	
-	.title {
-		text-align: center;
-	}
-
-	h1 {
-		background: #BDBDBD;
-		padding: 0.5em;
-		font-size: 35;
+	.philosophy_title {
 		text-align: center;
 	}
 
@@ -75,20 +68,6 @@
 	.wrap_greetingTitle {
 		display: block;
 		text-align: center;
-	}
-
-	h2{
-		text-align: left;
-		padding: .5em .75em;
-		background-color: #f6f6f6;
-		border-left: 6px solid #ccc;
-	}
-	.president {
-		display:block;
-		text-align: right;
-		width: auto;
-		height: auto;
-		margin-bottom: 15%;
 	}
 
 	.presidentName {
