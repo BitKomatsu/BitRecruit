@@ -7,7 +7,7 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<title>(仮)仕事内容</title>
 </head>
-<body class="overview">
+<body>
 <?php
 	include("./inc/header.inc");
 ?>
@@ -20,7 +20,7 @@
 		<img src="images/work_sub1.png" alt="携わるお客様全てに満足を" class="image1">
 	</div>
 	<br>
-	<div class="text">
+	<div class="working_text">
 		私たちがご提供するサービスはシステム開発ではありません。<br>
 	</div>
 	<br>
@@ -29,7 +29,7 @@
 		<img src="images/sub1.png" alt="仕事内容" class="image2">
 	<br>
 	<br>
-	<div class="text">
+	<div class="working_text">
 		これらのご要望に沿えるように、今までに蓄積された業務知識や経験を基に、<br>
 		<br>
 		お客様の業務内容や戦略から、システム化の分析・企画を考え、優れた提案をし、<br>
@@ -49,7 +49,7 @@
 	</div>
 	<br>
 	<br>
-	<div class="text">
+	<div class="working_text">
 		基本的には、自社独自の研修プログラムを基に学習を進めていきます。<br>
 		<br>
 		たとえ何かわからないことがあっても大丈夫！<br>
@@ -63,7 +63,7 @@
 	</div>
 	<br>
 	<br>
-	<div class="text">
+	<div class="working_text">
 		お客様の業種や使用するプログラミング言語は様々なので、<br>
 		<br>
 		ご依頼・ご要望の内容は多岐にわたります。<br>
