@@ -317,6 +317,10 @@ h2:after{
 	.philosophy_title {
 		text-align: center;
 	}
+	
+	.phi_sub_img {
+		width: 100%;
+	}
 
 	.slogan_container {
 		padding: 0 2em 0 2em;
