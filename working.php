@@ -3,7 +3,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<META http-equiv="Content-Style-Type" content="text/css">
-	<link href="style_working.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<title>(仮)仕事内容</title>
 </head>

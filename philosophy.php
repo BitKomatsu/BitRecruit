@@ -5,7 +5,6 @@
 <META http-equiv="Content-Style-Type" content="text/css">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
-<link href="style_philosophy.css" rel="stylesheet" type="text/css">
 <title>経営理念</title>
 </head>
 <body>
