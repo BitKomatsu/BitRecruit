@@ -7,16 +7,12 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
 		<title>(仮)BITリクルートサイト</title>
-		<link rel="stylesheet" href="modaal.css">
 		<script src='http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-		<script src="modaal.min.js"></script>
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="./css/colorbox.css" />
 		<title>(仮)BITリクルートサイト</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="./js/iziModal.min.css">
 		<script src="./js/jquery-3.3.1.min.js" type="text/javascript"></script>
-		<script src="./js/iziModal.min.js" type="text/javascript"></script>
-		<script src="./js/modal.js" type="text/javascript"></script>
+		<script src="./js/jquery.colorbox-min.js"></script>
 
     	<script type="text/javascript">
 			$(document).ready(function(){
@@ -26,37 +22,66 @@
 					pause: 4000
 				});
 			});
+<!--子画面モーダル関連-->
+$(function(){
+	$(".modal-open").click( function(){
+		$(this).blur() ;
+		if($("#modal-overlay")[0]) return false ;
+		$("body").append('<div id="modal-overlay"></div>');
+		$("#modal-overlay").fadeIn(500);
+		centeringModalSyncer() ;
+		$("#modal-content").fadeIn(500);
+		$( "#modal-overlay" ).unbind().click( function(){
+			$( "#modal-content,#modal-overlay" ).fadeOut( 500 , function(){
+				$('#modal-overlay').remove() ;
+			});
+		});
+	});
+	function centeringModalSyncer(){
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		var cw = $("#modal-content").outerWidth(true);
+		var ch = $("#modal-content").outerHeight(true);
+		
+		var pxleft = ((w - cw)/2);
+		var pxtop = ((h - ch)/2);
+		$("#modal-content").css({"left": pxleft + "px"});
+		$("#modal-content").css({"bottom": pxtop + "px"});
+	}
+});
+$(function(){
+	$(".modal-open03").click( function(){
+		$(this).blur() ;
+		if($("#modal-overlay")[0]) return false ;
+		$("body").append('<div id="modal-overlay"></div>');
+		$("#modal-overlay").fadeIn(500);
+		centeringModalSyncer() ;
+		$("#modal-content03").fadeIn(500);
+		$( "#modal-overlay" ).unbind().click( function(){
+			$( "#modal-content03,#modal-overlay" ).fadeOut( 500 , function(){
+				$('#modal-overlay').remove() ;
+			});
+		});
+	});
+	function centeringModalSyncer(){
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		var cw = $("#modal-content03").outerWidth(true);
+		var ch = $("#modal-content03").outerHeight(true);
+		
+		var pxleft = ((w - cw)/2);
+		var pxtop = ((h - ch)/2);
+		$("#modal-content03").css({"left": pxleft + "px"});
+		$("#modal-content03").css({"bottom": pxtop + "px"});
+	}
+});
+
+
 		</script>
 	</head>
 	<body>
 
 <div class="wrapper">
-		<script type="text/javascript">
-			$(function(){
-			  $("#toggle").click(function(){
-			    $(".menu").slideToggle();
-			    return false;
-			  });
-			  $(window).resize(function(){
-			    var win = $(window).width();
-			    var p = 640;
-			    if(win > p){
-			      $(".menu").show();
-			    } else {
-			      $(".menu").hide();
-			    }
-			  });
-			});
-			$(function() {
-				var win = $(window).width();
-			    var p = 640;
-			    if(win < p)$(function(){
-					$(".menuList").click(function(){
-						$(".menu").hide();
-					});
-				});
-			});
-		</script>
 <?php
 	include("./inc/header.inc");
 ?>
@@ -107,40 +132,77 @@
 		</div>
 <!-- 紹介 -->
 
-		<p>ボタンをクリックするとモーダルが表示されます</p>
-		<button class="open-default button">default</button>
-		<div id="modal-default">
-		  <div class="close">
-		    <a data-izimodal-close="">×</a>
-		  </div>
-		  <p>このモーダルはデフォルト設定です</p>
-		</div>
-
-		<button class="open-options button">options</button>
-		<div id="modal-options" data-izimodal-group="group1" data-izimodal-loop="" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
-		  <p>このモーダルはオプション設定をしています<br>iframeモーダルとグループ設定しています</p>
-		</div>
-
-		<button class="open-iframe button">iframe</button>
-		<div id="modal-iframe" data-izimodal-group="group1"></div>
-
-		<button class="open-alert button">alert</button>
-		<div id="modal-alert" data-izimodal-title="アラートモーダル" data-izimodal-subtitle="10秒で非表示になります"></div>
-
-
 		<div class="shain">
 			<div class="shainImg"><img src="./images/shain01.png" width="300px">
-				<p>高田　秀二</p>
-				<button class="open-options button">options</button>
-					<div id="modal-options" data-izimodal-group="group2" data-izimodal-loop="" data-izimodal-title="オプション設定モーダル" data-izimodal-subtitle="サブタイトル">
-		  			<p>このモーダルはオプション設定をしています<br>iframeモーダルとグループ設定しています</p>
+				<p><a class="button-link modal-open">高田　秀二</a></p>
+				<!--子画面-->
+				<div id="modal-content">
+					<div class="voice_window">
+						<p>
+							システム営業部<br>
+							高田　秀二
+						</p>
+						<p>
+							学生時代に学んだこと<br>
+							旅行専門学校で資格取得を目指し観光業務やホテル業務のイロハを学んでおりました。残念ながら在学中資格の取得は出来ませんでしたが…。
+						</p>
+						<p>
+							BITを選んだ理由<br>
+							旅行会社への就職を目指し就活開始。１９９０年代初旬に突然バブルが崩壊。旅行会社の求人が激減し挫折。路頭に迷っているさなか求人媒体ではＳＥ・ＰＧの募集があふれていました。<br>
+							そこでとりあえず何の知識を無く某システム会社へ応募。なぜか採用ＩＴ業界に足をふみいれ約３年ほど勤務。自分自身のスキルアップを目指し新たに活躍できる場所を求め転職活動を開始しＢＩＴへ応募。<br>
+							当時は設立１０年目ほどで少人数のＢＩＴでしたがビジョンがあり、また若手社員が活躍し活力や将来性を感じ、なぜか心をひかれこの会社を選びました。
+						</p>
+						<p>
+							これから働くにあたって、身につけたいこと又は身につけておけばよかったということ<br>
+							経営哲学や会社運営に携わる全ての事。
+						</p>
+						<p>
+							やりがいを感じる瞬間<br>
+							不景気時に仕事が受注できた時。お客様に助けられた時。新たな仕事が受注できた時。沢山の仲間と出会えた事　etc.
+						</p>
+						<p>
+							今後の目標<br>
+							事業拡大・システム開発業務以外にＩＴを活用した新たな事業を起こす。
+						</p>
+					</div>
 				</div>
 			</div>
 			<div class="shainImg"><img src="./images/shain02.png" width="300px">
 				<p>吉村　勇人</p>
 			</div>
 			<div class="shainImg"><img src="./images/shain03.png" width="300px">
-				<p>吉田　亮</p>
+				<p><a class="button-link modal-open03">吉田　亮</a></p>
+				<!--子画面-->
+				<div id="modal-content03">
+					<div class="voice_window">
+						<p>
+							システム営業部<br>
+							吉田　亮
+						</p>
+						<p>
+							学生時代に学んだこと<br>
+							旅行専門学校で資格取得を目指し観光業務やホテル業務のイロハを学んでおりました。残念ながら在学中資格の取得は出来ませんでしたが…。
+						</p>
+						<p>
+							BITを選んだ理由<br>
+							旅行会社への就職を目指し就活開始。１９９０年代初旬に突然バブルが崩壊。旅行会社の求人が激減し挫折。路頭に迷っているさなか求人媒体ではＳＥ・ＰＧの募集があふれていました。<br>
+							そこでとりあえず何の知識を無く某システム会社へ応募。なぜか採用ＩＴ業界に足をふみいれ約３年ほど勤務。自分自身のスキルアップを目指し新たに活躍できる場所を求め転職活動を開始しＢＩＴへ応募。<br>
+							当時は設立１０年目ほどで少人数のＢＩＴでしたがビジョンがあり、また若手社員が活躍し活力や将来性を感じ、なぜか心をひかれこの会社を選びました。
+						</p>
+						<p>
+							これから働くにあたって、身につけたいこと又は身につけておけばよかったということ<br>
+							経営哲学や会社運営に携わる全ての事。
+						</p>
+						<p>
+							やりがいを感じる瞬間<br>
+							不景気時に仕事が受注できた時。お客様に助けられた時。新たな仕事が受注できた時。沢山の仲間と出会えた事　etc.
+						</p>
+						<p>
+							今後の目標<br>
+							事業拡大・システム開発業務以外にＩＴを活用した新たな事業を起こす。
+						</p>
+					</div>
+				</div>
 			</div>
 			<div class="shainImg"><img src="./images/shain04.png" width="300px">
 				<p>山内　明</p>

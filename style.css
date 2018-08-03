@@ -146,16 +146,56 @@ h2:after{
 }
 
 /********** 紹介 **********/
+.voice_window p{
+	text-align:left;
+}
+
+/********************************
+ 
+	子画面モーダルwindow
+ 
+********************************/
 
 
 
+#modal-content, #modal-content03{
+	width:50%;
+	height:50%;
+	margin:1.5em;
+	padding:10px 20px;
+	background:#fff;
+	z-index:2;
+	position:fixed;
+	display:none;
+}
+
+.modal-p{
+	margin-top:1em;
+}
+
+.modal-p:first-child{
+	margin-top:0;
+}
+
+.button-link{
+	text-decoration: none;
+}
+ 
+.button-link:hover{
+	cursor:pointer;
+}
 
 
-
-
-
-
-
+#modal-overlay{
+	z-index:1;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+	background-color:rgba(0,0,0,0.75);
+}
 
 
 
