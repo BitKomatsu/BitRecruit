@@ -23,12 +23,12 @@
 		<div class="imageMarginBox">
 			<img src="./images/welfara_sub1.png" class="titleImage">
 		</div>
-		<p class="walfareText">
-			ビーアイテイでは、社員が生き生きと仕事に取り組めるよう、
-			福利厚生に関わる制度・施設の充実にも力を入れています。
-		</p>
 
 		<dl class="recruitBox">
+			<p class="walfareText">
+				ビーアイテイでは、社員が生き生きと仕事に取り組めるよう、
+				福利厚生に関わる制度・施設の充実にも力を入れています。
+			</p>
 			<dt class="recruitList">各種社会保険</dt>
 				<dd class="recruitListdd">
 					各種社会保険完備（健康・厚生年金・雇用・労災・介護）
@@ -73,12 +73,13 @@
 		<div class="imageMarginBox">
 			<img src="./images/welfara_sub2.png" class="titleImage">
 		</div>
-		<p class="walfareText">
-			BITでは<a href="http://www.jjk.or.jp/" target="_blank">全国情報サービス産業企業年金基金(JJK)</a>
-			に加入しており、以下の福利厚生サービスを利用することができます。
-		</p>
-	  		
+		
 	  	<dl class="recruitBox">
+			<p class="walfareText">
+				BITでは<a href="http://www.jjk.or.jp/" target="_blank">全国情報サービス産業企業年金基金(JJK)</a>
+				に加入しており、以下の福利厚生サービスを利用することができます。
+			</p>
+	  		
 			<dt class="recruitList">提携保養所</dt>
 				<dd class="recruitListdd">
 					国内３ヵ所の借上保養所はJTB東京赤坂支店を窓口として、ハワイ保養施設「イリカイ」はインケア（株）を窓口として借上契約を結んでいます。いずれも快適な施設です。
@@ -127,14 +128,15 @@
 		<div class="imageMarginBox">
 			<img src="./images/welfara_sub3.png" class="titleImage">
 		</div>
-		<p class="walfareText">
-			BITでは全国情報サービス産業企業年金基金(JJK)以外にも
-			<a href="https://bs.benefit-one.co.jp/bs/pages/bs/top/top.faces" target="_blank">
-				ベネフィット・ステーション
-			</a>
-			に会員登録しており、様々な福利厚生サービスを利用することができます。
-		</p>
+		
 		<dl class="recruitBox">
+			<p class="walfareText">
+				BITでは全国情報サービス産業企業年金基金(JJK)以外にも
+				<a href="https://bs.benefit-one.co.jp/bs/pages/bs/top/top.faces" target="_blank">
+					ベネフィット・ステーション
+				</a>
+				に会員登録しており、様々な福利厚生サービスを利用することができます。
+			</p>
 			<dt class="recruitList">育児</dt>
 				<dd class="recruitListdd">
 				<img src="./images/re_sys-fukuri02-01.jpg" alt="育児イメージ">
@@ -192,10 +194,10 @@
 					<p>国内&海外のホテルやパッケージツアーなど、会員限定のお得なプランや旅行情報を発言。多数の予約サイトと提携しているため、旅の目的に合った宿の選択肢が広がります。</p>
 				</dd>
 			</dt>
+			<div>
+				<p class="walfareText">その他にも多数のサービスがご利用出来ます。詳しくは、<a href="https://bs.benefit-one.co.jp/bs/pages/bs/top/top.faces" target="_blank">ベネフィット・ステーション</a>よりご覧ください。</p>
+			</div>
 		</dl>
-		<div>
-			<p class="walfareText">その他にも多数のサービスがご利用出来ます。詳しくは、<a href="https://bs.benefit-one.co.jp/bs/pages/bs/top/top.faces" target="_blank">ベネフィット・ステーション</a>よりご覧ください。</p>
-		</div>
 		<?php include("./inc/footer.inc"); ?>
 	</body>
 </html>
