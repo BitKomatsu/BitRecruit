@@ -12,13 +12,13 @@
 	</head>
 	<body>
 
-		<?php include("../inc/header.inc"); ?>
+		<?php include("./inc/header.inc"); ?>
 		
 		<!-- パンくずリスト -->
 		<div class="">
 			<a href="index.html" class="">HOME</a>
 			> 
-			<a href="recruit.html" class="">募集要項</a>
+			<a href="recruit.php" class="">募集要項</a>
 			> 中途採用 東京 システムエンジニア
 		</div>
 		<!-- 画像 -->
@@ -93,6 +93,6 @@
 		</dl>
 
 		<div class="clear"></div>
-		<?php include("../inc/footer.inc"); ?>
+		<?php include("./inc/footer.inc"); ?>
 	</body>
 </html>

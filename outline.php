@@ -38,7 +38,7 @@
 			});
 		</script>
 <body class="overview">
-	<?php include("../inc/header.inc"); ?>
+	<?php include("./inc/header.inc"); ?>
 	
 	<!-- パンくずリスト -->
 	<div class="">
@@ -208,6 +208,6 @@
 	</div>
 	<div class="clear">
 	</div>
-	<?php include("../inc/footer.inc"); ?>
+	<?php include("./inc/footer.inc"); ?>
 </body>
 </html>

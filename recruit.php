@@ -11,7 +11,7 @@
 		<link href="css/jquery.bxslider.css" rel="stylesheet" />
 	</head>
 	<body>
-		<?php include("../inc/header.inc"); ?>
+		<?php include("./inc/header.inc"); ?>
 
 		<!-- パンくずリスト -->
 		<div class="">
@@ -34,14 +34,14 @@
 			<dl class="recruitBox">
 				<dt class="recruitList">大阪</dt>
 					<dd class="recruitListdd">
-						<a href="recruitNewGraduatePageOsaka1.html" class="">プログラマー</a><br>
-						<a href="recruitNewGraduatePageOsaka2.html" class="">システムエンジニア</a>
+						<a href="recruitNewGraduatePageOsaka1.php" class="">プログラマー</a><br>
+						<a href="recruitNewGraduatePageOsaka2.php" class="">システムエンジニア</a>
 					</dd>
 				</dt>
 				<dt class="recruitList">東京</dt>
 					<dd class="recruitListdd">
-						<a href="recruitNewGraduatePageTokyo1.html" class="">プログラマー</a><br>
-						<a href="recruitNewGraduatePageTokyo2.html" class="">システムエンジニア</a>
+						<a href="recruitNewGraduatePageTokyo1.php" class="">プログラマー</a><br>
+						<a href="recruitNewGraduatePageTokyo2.php" class="">システムエンジニア</a>
 					</dd>
 				</dt>
 			</dl>
@@ -52,19 +52,19 @@
 			<dl class="recruitBox">
 				<dt class="recruitList">大阪</dt>
 					<dd class="recruitListdd">
-						<a href="recruitMiddlePageOsaka1.html" class="">プログラマー</a><br>
-						<a href="recruitMiddlePageOsaka2.html" class="">システムエンジニア</a>
+						<a href="recruitMiddlePageOsaka1.php" class="">プログラマー</a><br>
+						<a href="recruitMiddlePageOsaka2.php" class="">システムエンジニア</a>
 					</dd>
 				</dt>
 				<dt class="recruitList">東京</dt>
 					<dd class="recruitListdd">
-						<a href="recruitMiddlePageTokyo1.html" class="">プログラマー</a><br>
-						<a href="recruitMiddlePageTokyo2.html" class="">システムエンジニア</a>
+						<a href="recruitMiddlePageTokyo1.php" class="">プログラマー</a><br>
+						<a href="recruitMiddlePageTokyo2.php" class="">システムエンジニア</a>
 					</dd>
 				</dt>
 			</dl>
 		</div>
 		<div class="clear"></div>
-		<?php include("../inc/footer.inc"); ?>
+		<?php include("./inc/footer.inc"); ?>
 	</body>
 </html>
