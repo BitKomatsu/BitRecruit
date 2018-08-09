@@ -127,8 +127,8 @@ h2:after{
 .shain{
 	display:block;
 	width:1000px;
-	height:auto;
-	margin:20px auto;
+	height:300px;
+	margin:50px auto;
 }
 
 .shainImg{
@@ -143,12 +143,67 @@ h2:after{
 
 .shainImg p{
 	text-align:center;
+	margin-bottom:20px;
 }
 
 /********** 紹介 **********/
+.voice_window{
+    display: block;
+    position: relative;
+    width:500px;
+	height:auto;
+	margin:30px auto;
+}
+
+/* 装飾 */
+.ribbon17 {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    box-sizing: border-box;
+    padding: 0 12px;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: white;
+    background: #70c7ff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+.ribbon17:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -7px;
+    border: none;
+    height: 38px;
+    width: 7px;
+    background: #70c7ff;
+    border-radius: 5px 0 0 5px;
+}
+.ribbon17:after {
+    position: absolute;
+    content: '';
+    bottom: -7px;
+    left: -5px;
+    border: none;
+    height: 7px;
+    width: 5px;
+    background: #4d99ca;
+    border-radius: 5px 0 0 5px;
+}
 .voice_window p{
 	text-align:left;
 }
+
+.voice_window h2{
+	font-size:1.1em;
+	width:100%;
+	text-align:left;
+}
+
 
 /********************************
  
@@ -159,14 +214,15 @@ h2:after{
 
 
 #modal-content, #modal-content03{
-	width:50%;
-	height:50%;
+	width:600px;
+	height:650px;
 	margin:1.5em;
 	padding:10px 20px;
 	background:#fff;
 	z-index:2;
 	position:fixed;
 	display:none;
+	overflow-y: scroll;
 }
 
 .modal-p{

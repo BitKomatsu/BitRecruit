@@ -137,13 +137,12 @@ $(function(){
 				<p><a class="button-link modal-open">高田　秀二</a></p>
 				<!--子画面-->
 				<div id="modal-content">
+					<h3 class="ribbon17">社員の声</h3>
 					<div class="voice_window">
+						<h2>システム営業部　高田 秀二</h2>
 						<p>
-							システム営業部<br>
-							高田　秀二
-						</p>
 						<p>
-							学生時代に学んだこと<br>
+							学生時代に学んだこと<br/>
 							旅行専門学校で資格取得を目指し観光業務やホテル業務のイロハを学んでおりました。残念ながら在学中資格の取得は出来ませんでしたが…。
 						</p>
 						<p>
@@ -167,9 +166,11 @@ $(function(){
 					</div>
 				</div>
 			</div>
+			
 			<div class="shainImg"><img src="./images/shain02.png" width="300px">
 				<p>吉村　勇人</p>
 			</div>
+			
 			<div class="shainImg"><img src="./images/shain03.png" width="300px">
 				<p><a class="button-link modal-open03">吉田　亮</a></p>
 				<!--子画面-->
@@ -204,14 +205,22 @@ $(function(){
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="shain">
+
 			<div class="shainImg"><img src="./images/shain04.png" width="300px">
 				<p>山内　明</p>
 			</div>
+			
 			<div class="shainImg"><img src="./images/shain05.png" width="300px">
 				<p>小松　弘樹</p>
 			</div>
+			
 			<div class="shainImg"><img src="./images/shain06.png" width="300px">
-</div>
+
+		</div>
+	</div>
 </div>
 
 <!-- //紹介 -->
