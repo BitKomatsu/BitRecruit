@@ -84,7 +84,7 @@
 					ベネフィット・ステーション（福利厚生サービス）加入
 				</dd>
 			<dt class="recruitList">勤務地</dt>
-				<dd class="recruitListdd">
+				<dd class="recruitListdd_last">
 					東京都千代田区岩本町２－１２－２
 				</dd>
 			<div class="clear"></div>

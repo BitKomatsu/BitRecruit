@@ -80,7 +80,7 @@
 					ベネフィット・ステーション（福利厚生サービス）加入
 				</dd>
 			<dt class="recruitList">勤務地</dt>
-				<dd class="recruitListdd">
+				<dd class="recruitListdd_last">
 					大阪市西区江戸堀１-１０-２
 				</dd>
 			<div class="clear"></div>

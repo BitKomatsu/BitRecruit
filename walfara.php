@@ -56,7 +56,7 @@
 				</dd>
 			</dt>
 			<dt class="recruitList">その他の特別休暇</dt>
-				<dd class="recruitListdd">
+				<dd class="recruitListdd_last">
 					年次有給休暇とは別に、以下の特別休暇を取得することができます。<br>
 					慶弔休暇、産前産後休暇、転勤赴任休暇、子の看護休暇、介護休暇、妊産婦の通院休暇、裁判員休暇など<br><br>
 					メンタルヘルス支援<br>
@@ -118,7 +118,7 @@
 				</dd>
 			</dt>
 	  		<dt class="recruitList">弔慰金<br>遺児育英補助金</dt>
-				<dd class="recruitListdd">
+				<dd class="recruitListdd_last">
 					加入員および年金受給者が亡くなられたとき、その遺族または埋葬を行った人に『弔慰金』を支給いたします。また、加入員が亡くなられたとき、加入員により生計を維持された遺児を対象に『遺児育英補助金』を支給します。
 				</dd>
 			</dt>
