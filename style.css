@@ -425,6 +425,9 @@ h2:after{
 	}
 
 		/* 経営理念下見出し */
+	.topImg{
+		text-align: center;
+	}
 	.slogan_headderText {
 		text-align: center;
 		font-size: 25;
