@@ -50,7 +50,7 @@
 			<div class="presidentImg">
 				<img src="images/boss.jpg" width="400" height="381" >
 				<div class="presidentName">
-					代表取締役<br>
+					代表取締役　
 					野間　一志
 				</div>
 			</div>
