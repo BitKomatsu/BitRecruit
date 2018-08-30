@@ -26,7 +26,7 @@ body{
 ================================================*/
 .image{
 	width:200px;
-	margin:50px auto ;
+	margin:60px auto ;
 }
 
 
@@ -45,8 +45,22 @@ body{
 	text-align:left;
 }
 
+.n_img{
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.n_img img{
+	width:95%;
+}
+
 .text{
-	margin-top:15px;
+	margin:15px auto 40px;
+}
+
+.warau{
+	margin:5px 0;
+	font-weight:bold;
 }
 
 .msr_h102 {
@@ -73,7 +87,7 @@ body{
 }
 
 h2 {
-	width:30%;
+	width:20%;
 	line-height:1.3em;
 	font-size:1.5em;
 	background: linear-gradient(transparent 60%, #a7d6ff 60%);
@@ -287,7 +301,7 @@ h2:after{
 	.menuList:last-child a{ color: white; text-decoration: none; text-align: center; text-decoration: none;}
 	.menuList a:hover{ color: white; text-decoration: none; text-align: center; text-decoration: none;}
 	#toggle { display: none; }
-	.menuLinkUnder{ font-size: 11px; }
+	.menuLinkUnder{ font-size: 11px;color:#fff; }
 
 	/* メインイメージ関連 */
 	.mainImageBox { width: 1200px; margin-top: 0px; margin-bottom: 20px;}
@@ -332,8 +346,10 @@ h2:after{
 
 	/* 募集要項関連 */
 	.imageMarginBox{text-align: center;}
+	.imageMarginBox img{width:95%}
+	.walfareText{margin-bottom:25px;}
 	.recruitTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
-	.recruitBox{width:75%; display: block; margin:auto; margin-bottom:50px; margin-top: 15px; padding:auto;}
+	.recruitBox{width:75%; display: block; margin:auto; margin:50px auto; padding:auto;}
 	.recruitList{color: #002b62; font-size: 18px; font-weight: bold; float: left;}
 	.recruitListdd {border-bottom: 2px solid #D7E8F0; margin-bottom: 15px; margin-left: 0; padding: 0 0 12px 185px;}
 	.buttonBox{}
@@ -368,6 +384,10 @@ h2:after{
 		width: 100%;
 		margin: 0.5% 0;
 		display: table;
+	}
+
+	.m_6{
+		margin-bottom:6px;
 	}
 
 	.outline_hr {
@@ -429,7 +449,7 @@ h2:after{
 		text-align: center;
 		font-size: 25;
 		font-weight: 600; 
-		margin: 40px 180px;
+		margin: 50px 80px 40px;
 		position: relative;
 		padding: 0.25em 0;
 	}
@@ -442,10 +462,14 @@ h2:after{
 		background: linear-gradient(to right, rgb(0, 60, 250), transparent); 
 	}
 
+	.topImg{
+		margin:10px 0 20px;
+	}
+
 	.slogan_mainText {
 		text-align: center;	
 		line-height: 200%;	
-		margin: 40px 60px 40px 60px;
+		margin: 40px 60px 50px 60px;
 		font-size: 110%;
 	}
 
@@ -500,6 +524,7 @@ h2:after{
 		background-color: #F5F6E2;
 		padding: 1em 0 0.3em 0;
 		margin: 2% 0;
+		background-color: rgb(245,246,226,0.15);
 	}
 
 	p.list_headderWord {
@@ -540,8 +565,9 @@ h2:after{
 		padding: 0 2em;
 	    height: 100px;
 	    width: 100%;
-	    margin: 0 20px;
+	    margin: 55px 0px 20px 20px;
 	    line-height: 215%;
+	    letter-spacing:1px;
 	}
 	
 	
@@ -563,6 +589,7 @@ h2:after{
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		width:95%;
 	}
 
 	img.image2 {

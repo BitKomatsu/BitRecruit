@@ -21,7 +21,6 @@
 	<div class="image">
 		<img src="images/title02.png" alt="タイトル" class="title02">
 	</div>
-	<br>
 	<div class="image1">
 		<img src="images/work_sub1.png" alt="携わるお客様全てに満足を" class="image1">
 	</div>

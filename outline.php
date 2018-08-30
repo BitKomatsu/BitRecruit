@@ -190,7 +190,7 @@
 	<div class="clear">
 	</div>
 	<hr class="outline_hr">
-	<div class="outline_wrapper">
+	<div class="outline_wrapper m_6">
 		<span class="outline_index">
 			東京オフィス
 		</span>

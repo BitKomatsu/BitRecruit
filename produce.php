@@ -204,14 +204,16 @@ $(function(){
 <!-- //画像 -->
  
 <!-- 社風 -->
-<div class="nakama">
+<div class="n_img">
 	<img src="./images/produce_sub1.png">
+</div>
+<div class="nakama">
 		<div class="contain">
 			<h2>愉快な仲間たち</h2><p>
 				<div class="text">
 				<span>よくある言葉ですが、やっぱりそれが一番しっくり来る感じです。<br/>
 				bitにはいろんな人がいます。<br/>
-				よく話す人。よく笑う人。<br/>
+				<p class="warau">よく話す人。よく笑う人。</p>
 				もちろん、仕事をしている最中は集中していますので、無言でパソコンの画面を見つめ、聞こえてくるのはキーボードをたたく音だけ。<br/>
 				そんな場面がほとんどですが、誰だって息抜きが必要なわけで、その使い分けが上手です。<br/>
 				誰かの一言がきっかけで、さらにかぶせてボケる人やノリ突っ込みをする人でしばらくは笑い話で脳の緊張を緩めたあと、またみんな仕事に集中する。<br/>
@@ -226,8 +228,12 @@ $(function(){
 <!-- //社風 -->
 
 <!-- スタッフ -->
-<div class="staff">
+
+<div class="n_img">
 	<img src="./images/produce_sub2.png">
+</div>
+
+<div class="staff">
 		<div class="contain">
 			<span>bitの社員の数名をご紹介します。<br/>画像か名前クリックで社員インタビューが表示されます。</span>
 		</div>
