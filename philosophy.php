@@ -16,7 +16,7 @@
 		</a>
 		> 経営理念テスト
 	</div>
-	<div class="philosophy_title"><img src="images/title03.png"></div>
+	<div class="image"><img src="images/title03.png"></div>
 	<div class="slogan_container">
 		<div class="topImg"><img src="images/philosophy_sub1.png" class="phi_sub_img"></div>
 		<div class="slogan_headderText">
