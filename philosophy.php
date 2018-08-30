@@ -8,13 +8,13 @@
 <title>経営理念</title>
 </head>
 <body>
-	<?php include("../inc/header.inc"); ?>
+	<?php include("./inc/header.inc"); ?>
 	<!-- パンくずリスト -->
 	<div class="">
 		<a href="index.html" class="">
 			HOME
 		</a>
-		> 経営理念テスト
+		> 経営理念
 	</div>
 	<div class="philosophy_title"><img src="images/title03.png"></div>
 	<div class="slogan_container">
@@ -76,6 +76,6 @@
 			私たちはこれからも全力で魅力ある会社作りをしていきます。
 		</p>
 	</div>
-	<?php include("../inc/footer.inc"); ?>
+	<?php include("./inc/footer.inc"); ?>
 </body>
 </html>

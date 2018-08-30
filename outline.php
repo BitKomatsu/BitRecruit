@@ -47,7 +47,7 @@
 		</a>
 		> 会社概要
 	</div>
-	<div class="outline_title">
+	<div class="image">
 		<img src="images/title01.png">
 	</div>
 	<div class="outline_wrapper">

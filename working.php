@@ -10,8 +10,15 @@
 <?php
 	include("./inc/header.inc");
 ?>
+	<!-- パンくずリスト -->
+	<div class="">
+		<a href="index.html" class="">
+			HOME
+		</a>
+		> 仕事内容
+	</div>
 
-	<div class="title02">
+	<div class="image">
 		<img src="images/title02.png" alt="タイトル" class="title02">
 	</div>
 	<br>
