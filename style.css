@@ -152,7 +152,7 @@ h2:after{
     position: relative;
     width:500px;
 	height:auto;
-	margin:30px auto;
+	margin:50px auto;
 }
 
 /* 装飾 */
@@ -200,7 +200,7 @@ h2:after{
 
 .voice_window h2{
 	font-size:1.1em;
-	width:100%;
+	width:70%;
 	text-align:left;
 }
 
@@ -213,7 +213,7 @@ h2:after{
 
 
 
-#modal-content, #modal-content03{
+#modal-content, #modal-content02, #modal-content03, #modal-content04, #modal-content05, #modal-content06{
 	width:600px;
 	height:650px;
 	margin:1.5em;

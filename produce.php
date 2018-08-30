@@ -1,9 +1,6 @@
 <!DECTYPE html>
 <html>
 	<head>
-<?php
-	include_once("./inc/config.inc");
-?>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
 		<title>(仮)BITリクルートサイト</title>
@@ -50,6 +47,32 @@ $(function(){
 	}
 });
 $(function(){
+	$(".modal-open02").click( function(){
+		$(this).blur() ;
+		if($("#modal-overlay")[0]) return false ;
+		$("body").append('<div id="modal-overlay"></div>');
+		$("#modal-overlay").fadeIn(500);
+		centeringModalSyncer() ;
+		$("#modal-content02").fadeIn(500);
+		$( "#modal-overlay" ).unbind().click( function(){
+			$( "#modal-content02,#modal-overlay" ).fadeOut( 500 , function(){
+				$('#modal-overlay').remove() ;
+			});
+		});
+	});
+	function centeringModalSyncer(){
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		var cw = $("#modal-content03").outerWidth(true);
+		var ch = $("#modal-content03").outerHeight(true);
+		
+		var pxleft = ((w - cw)/2);
+		var pxtop = ((h - ch)/2);
+		$("#modal-content02").css({"left": pxleft + "px"});
+		$("#modal-content02").css({"bottom": pxtop + "px"});
+	}
+});
+$(function(){
 	$(".modal-open03").click( function(){
 		$(this).blur() ;
 		if($("#modal-overlay")[0]) return false ;
@@ -73,6 +96,84 @@ $(function(){
 		var pxtop = ((h - ch)/2);
 		$("#modal-content03").css({"left": pxleft + "px"});
 		$("#modal-content03").css({"bottom": pxtop + "px"});
+	}
+});
+$(function(){
+	$(".modal-open04").click( function(){
+		$(this).blur() ;
+		if($("#modal-overlay")[0]) return false ;
+		$("body").append('<div id="modal-overlay"></div>');
+		$("#modal-overlay").fadeIn(500);
+		centeringModalSyncer() ;
+		$("#modal-content04").fadeIn(500);
+		$( "#modal-overlay" ).unbind().click( function(){
+			$( "#modal-content04,#modal-overlay" ).fadeOut( 500 , function(){
+				$('#modal-overlay').remove() ;
+			});
+		});
+	});
+	function centeringModalSyncer(){
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		var cw = $("#modal-content04").outerWidth(true);
+		var ch = $("#modal-content04").outerHeight(true);
+		
+		var pxleft = ((w - cw)/2);
+		var pxtop = ((h - ch)/2);
+		$("#modal-content04").css({"left": pxleft + "px"});
+		$("#modal-content04").css({"bottom": pxtop + "px"});
+	}
+});
+$(function(){
+	$(".modal-open03").click( function(){
+		$(this).blur() ;
+		if($("#modal-overlay")[0]) return false ;
+		$("body").append('<div id="modal-overlay"></div>');
+		$("#modal-overlay").fadeIn(500);
+		centeringModalSyncer() ;
+		$("#modal-content05").fadeIn(500);
+		$( "#modal-overlay" ).unbind().click( function(){
+			$( "#modal-content05,#modal-overlay" ).fadeOut( 500 , function(){
+				$('#modal-overlay').remove() ;
+			});
+		});
+	});
+	function centeringModalSyncer(){
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		var cw = $("#modal-content05").outerWidth(true);
+		var ch = $("#modal-content05").outerHeight(true);
+		
+		var pxleft = ((w - cw)/2);
+		var pxtop = ((h - ch)/2);
+		$("#modal-content05").css({"left": pxleft + "px"});
+		$("#modal-content05").css({"bottom": pxtop + "px"});
+	}
+});
+$(function(){
+	$(".modal-open03").click( function(){
+		$(this).blur() ;
+		if($("#modal-overlay")[0]) return false ;
+		$("body").append('<div id="modal-overlay"></div>');
+		$("#modal-overlay").fadeIn(500);
+		centeringModalSyncer() ;
+		$("#modal-content06").fadeIn(500);
+		$( "#modal-overlay" ).unbind().click( function(){
+			$( "#modal-content06,#modal-overlay" ).fadeOut( 500 , function(){
+				$('#modal-overlay').remove() ;
+			});
+		});
+	});
+	function centeringModalSyncer(){
+		var w = window.innerWidth;
+		var h = window.innerHeight;
+		var cw = $("#modal-content06").outerWidth(true);
+		var ch = $("#modal-content06").outerHeight(true);
+		
+		var pxleft = ((w - cw)/2);
+		var pxtop = ((h - ch)/2);
+		$("#modal-content06").css({"left": pxleft + "px"});
+		$("#modal-content06").css({"bottom": pxtop + "px"});
 	}
 });
 
@@ -133,8 +234,10 @@ $(function(){
 <!-- 紹介 -->
 
 		<div class="shain">
-			<div class="shainImg"><img src="./images/shain01.png" width="300px">
-				<p><a class="button-link modal-open">高田　秀二</a></p>
+			<a class="button-link modal-open">
+				<div class="shainImg"><img src="./images/shain01.png" width="300px">
+				<p>高田　秀二</p>
+			</a>
 				<!--子画面-->
 				<div id="modal-content">
 					<h3 class="ribbon17">社員の声</h3>
@@ -142,7 +245,45 @@ $(function(){
 						<h2>システム営業部　高田 秀二</h2>
 						<p>
 						<p>
-							学生時代に学んだこと<br/>
+							<b>学生時代に学んだこと</b><br/>
+							旅行専門学校で資格取得を目指し観光業務やホテル業務のイロハを学んでおりました。残念ながら在学中資格の取得は出来ませんでしたが…。
+						</p>
+						<p>
+							<b>BITを選んだ理由</b><br>
+							旅行会社への就職を目指し就活開始。１９９０年代初旬に突然バブルが崩壊。旅行会社の求人が激減し挫折。路頭に迷っているさなか求人媒体ではＳＥ・ＰＧの募集があふれていました。<br>
+							そこでとりあえず何の知識を無く某システム会社へ応募。なぜか採用ＩＴ業界に足をふみいれ約３年ほど勤務。自分自身のスキルアップを目指し新たに活躍できる場所を求め転職活動を開始しＢＩＴへ応募。<br>
+							当時は設立１０年目ほどで少人数のＢＩＴでしたがビジョンがあり、また若手社員が活躍し活力や将来性を感じ、なぜか心をひかれこの会社を選びました。
+						</p>
+						<p>
+							<b>これから働くにあたって、身につけたいこと又は身につけておけばよかったということ</b><br>
+							経営哲学や会社運営に携わる全ての事。
+						</p>
+						<p>
+							<b>やりがいを感じる瞬間</b><br>
+							不景気時に仕事が受注できた時。お客様に助けられた時。新たな仕事が受注できた時。沢山の仲間と出会えた事　etc.
+						</p>
+						<p>
+							<b>今後の目標</b><br>
+							事業拡大・システム開発業務以外にＩＴを活用した新たな事業を起こす。
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="shainImg">
+				<a class="button-link modal-open02">
+					<img src="./images/shain02.png" width="300px">
+					<p>吉村　勇人</p>
+				</a>
+				<!--子画面-->
+				<div id="modal-content02">
+					<div class="voice_window">
+						<p>
+							システム営業部<br>
+							吉田　亮
+						</p>
+						<p>
+							学生時代に学んだこと<br>
 							旅行専門学校で資格取得を目指し観光業務やホテル業務のイロハを学んでおりました。残念ながら在学中資格の取得は出来ませんでしたが…。
 						</p>
 						<p>
@@ -167,12 +308,11 @@ $(function(){
 				</div>
 			</div>
 			
-			<div class="shainImg"><img src="./images/shain02.png" width="300px">
-				<p>吉村　勇人</p>
-			</div>
-			
-			<div class="shainImg"><img src="./images/shain03.png" width="300px">
-				<p><a class="button-link modal-open03">吉田　亮</a></p>
+				<div class="shainImg">
+				<a class="button-link modal-open03">
+					<img src="./images/shain03.png" width="300px">
+					<p>吉田　亮</p>
+				</a>
 				<!--子画面-->
 				<div id="modal-content03">
 					<div class="voice_window">
@@ -209,8 +349,42 @@ $(function(){
 
 		<div class="shain">
 
-			<div class="shainImg"><img src="./images/shain04.png" width="300px">
+			<div class="shainImg">
+			<a class="button-link modal-open04">
+				<img src="./images/shain04.png" width="300px">
 				<p>山内　明</p>
+			</a>
+				<!--子画面-->
+				<div id="modal-content04">
+					<div class="voice_window">
+						<p>
+							システム営業部<br>
+							吉田　亮
+						</p>
+						<p>
+							学生時代に学んだこと<br>
+							旅行専門学校で資格取得を目指し観光業務やホテル業務のイロハを学んでおりました。残念ながら在学中資格の取得は出来ませんでしたが…。
+						</p>
+						<p>
+							BITを選んだ理由<br>
+							旅行会社への就職を目指し就活開始。１９９０年代初旬に突然バブルが崩壊。旅行会社の求人が激減し挫折。路頭に迷っているさなか求人媒体ではＳＥ・ＰＧの募集があふれていました。<br>
+							そこでとりあえず何の知識を無く某システム会社へ応募。なぜか採用ＩＴ業界に足をふみいれ約３年ほど勤務。自分自身のスキルアップを目指し新たに活躍できる場所を求め転職活動を開始しＢＩＴへ応募。<br>
+							当時は設立１０年目ほどで少人数のＢＩＴでしたがビジョンがあり、また若手社員が活躍し活力や将来性を感じ、なぜか心をひかれこの会社を選びました。
+						</p>
+						<p>
+							これから働くにあたって、身につけたいこと又は身につけておけばよかったということ<br>
+							経営哲学や会社運営に携わる全ての事。
+						</p>
+						<p>
+							やりがいを感じる瞬間<br>
+							不景気時に仕事が受注できた時。お客様に助けられた時。新たな仕事が受注できた時。沢山の仲間と出会えた事　etc.
+						</p>
+						<p>
+							今後の目標<br>
+							事業拡大・システム開発業務以外にＩＴを活用した新たな事業を起こす。
+						</p>
+					</div>
+				</div>
 			</div>
 			
 			<div class="shainImg"><img src="./images/shain05.png" width="300px">
