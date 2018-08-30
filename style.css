@@ -429,7 +429,7 @@ h2:after{
 		text-align: center;
 		font-size: 25;
 		font-weight: 600; 
-		margin: 40px 170px;
+		margin: 40px 180px;
 		position: relative;
 		padding: 0.25em 0;
 	}
@@ -488,7 +488,7 @@ h2:after{
 
 	.presidentName {
 		width: auto;
-		margin: 10px 180px 0 0;
+		margin: 10px 190px 0 0;
 		text-align:right;
 	}
 
@@ -537,8 +537,11 @@ h2:after{
 	}
 
 	.bottom_presidentComment {
-		padding: 0;
-		line-height:200%;
+		padding: 0 2em;
+	    height: 100px;
+	    width: 100%;
+	    margin: 0 20px;
+	    line-height: 215%;
 	}
 	
 	
