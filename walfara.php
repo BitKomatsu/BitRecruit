@@ -63,7 +63,9 @@
 					メンタルヘルス医師と提携しており、通常より安価にてカウンセリングを受けることが出来ます。<br><br>
 					新人歓迎会、忘年会や社員旅行（年1回、5年に一度海外）を行っております。<br>
 					また、クラブ活動等、各種交流イベントを行い、社内の環境作りに力を入れております。<br>
-					<img src="./images/taiwanImage.png" width="300px" alt="台湾集合写真">
+					<img src="images/group.png" width="230px" alt="30周年写真">
+					<img src="images/golf.png" width="230px" alt="ゴルフ写真">
+					<img src="images/taiwan.png" width="230px" alt="台湾集合写真">
 				</dd>
 			</dt>
 		</dl>
