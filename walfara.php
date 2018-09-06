@@ -63,9 +63,12 @@
 					メンタルヘルス医師と提携しており、通常より安価にてカウンセリングを受けることが出来ます。<br><br>
 					新人歓迎会、忘年会や社員旅行（年1回、5年に一度海外）を行っております。<br>
 					また、クラブ活動等、各種交流イベントを行い、社内の環境作りに力を入れております。<br>
-					<img src="images/group.png" width="230px" alt="30周年写真">
-					<img src="images/golf.png" width="230px" alt="ゴルフ写真">
-					<img src="images/taiwan.png" width="230px" alt="台湾集合写真">
+					
+					<div class="recruit_img">
+						<img src="images/group.png" width="230px" alt="30周年写真">
+						<img src="images/golf.png" width="230px" alt="ゴルフ写真">
+						<img src="images/taiwan.png" width="230px" alt="台湾集合写真">
+					</div>
 				</dd>
 			</dt>
 		</dl>
@@ -190,7 +193,7 @@
 				</dd>
 			</dt>
 			<dt class="recruitList">旅行</dt>
-				<dd class="recruitListdd">
+				<dd class="recruitListdd_last">
 					<img src="./images/re_sys-fukuri02-08.jpg" alt="旅行イメージ">
 					<p>リゾートを満喫！出張をスマートに！</p>
 					<p>国内&海外のホテルやパッケージツアーなど、会員限定のお得なプランや旅行情報を発言。多数の予約サイトと提携しているため、旅の目的に合った宿の選択肢が広がります。</p>

@@ -26,7 +26,7 @@
 			<img src="./images/title06.png" alt="社員紹介" class="titleImage">
 		</div>
 		<div class="clear"></div>
-		<h2>中途採用 東京</h2>
+		<h2 class="ngp">中途採用　東京</h2>
 		<dl class="recruitBox">
 			<dt class="recruitList">募集職種</dt>
 				<dd class="recruitListdd">

@@ -24,7 +24,7 @@
 	<div class="image">
 		<img src="./images/title06.png" alt="募集要項" class="titleImage">
 	</div>
-		<h2>新卒採用 東京</h2>
+		<h2 class="ngp">新卒採用　東京</h2>
 		<dl class="recruitBox">
 			<dt class="recruitList">募集職種</dt>
 				<dd class="recruitListdd">

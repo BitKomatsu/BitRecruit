@@ -25,8 +25,10 @@
 		<img src="images/work_sub1.png" alt="携わるお客様全てに満足を" class="image1">
 	</div>
 	<br>
-	<div class="working_text">
-		私たちがご提供するサービスはシステム開発ではありません。<br>
+	<div class="working_text1">
+	<h2 class="working1">
+		私たちがご提供するサービスはシステム開発ではありません。
+	</h2>
 	</div>
 	<br>
 	<br>

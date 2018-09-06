@@ -1,7 +1,7 @@
 
 *{
 	font-size:0.98em;
-	color:#333;
+	color:#111;
 	margin:0;
 	padding:0;
 	font-family:游ゴシック,serif;
@@ -10,7 +10,8 @@
 }
 
 body{
-	background-image:url("images/background.png");
+	background-image:url("./images/background.png");
+	background-size:100%;
 }
 
 .contain{
@@ -93,42 +94,11 @@ h2 {
 	background: linear-gradient(transparent 60%, #a7d6ff 60%);
 }
 
-/*
-h2{
-	position: relative;
-	line-height: 1.4;
-	padding:0.25em 1em;
-	display: inline-block;
-	top:0;
-	font-size:1.3em;
-	font-family:游明朝,serif;
-	color:#293383;
+.ngp{
+	font-size:1.8em;
+	margin-left:150px;
 }
 
-h2:before,h2:after{ 
-	position: absolute;
-	top: 0;
-	content:'';
-	width: 8px;
-	height: 100%;
-	display: inline-block;
-}
-
-h2:before{
-	border-left: solid 1px black;
-	border-top: solid 1px black;
-	border-bottom: solid 1px black;
-	left: 0;
-}
-
-h2:after{
-	content: '';
-	border-top: solid 1px black;
-	border-right: solid 1px black;
-	border-bottom: solid 1px black;
-	right: 0;
-}
-*/
 
 
 /********** スタッフ **********/
@@ -138,11 +108,15 @@ h2:after{
 	text-align:left;
 }
 
-.shain{
+.shain, .shain2{
 	display:block;
 	width:1000px;
 	height:300px;
 	margin:50px auto;
+}
+
+.shain2{
+	width:700px;
 }
 
 .shainImg{
@@ -327,7 +301,7 @@ h2:after{
 	img.LinkricNaviImageRespons{width: 120px; margin-left:50px;}
 	.footerMenuBox { margin-top:10px; background-color: #1f499d;}
 	.footerMenu {
-	    width : 40%;
+	    width : 50%;
 	    display:table;
 	    table-layout:fixed;
 	    text-align:center;
@@ -347,12 +321,14 @@ h2:after{
 	/* 募集要項関連 */
 	.imageMarginBox{text-align: center;}
 	.imageMarginBox img{width:95%}
-	.walfareText{margin:30px 0;}
+	.walfareText{margin:30px 0 50px; font-size:1.05em; font-weight:bold;}
 	.recruitTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
 	.recruitBox{width:75%; display: block; margin:auto; margin:50px auto; padding:auto;}
 	.recruitList{color: #002b62; font-size: 18px; font-weight: bold; float: left;}
 	.recruitListdd {border-bottom: 2px solid #D7E8F0; margin-bottom: 15px; margin-left: 0; padding: 0 0 12px 185px;}
 	.recruitListdd_last {margin-bottom: 15px; margin-left: 0; padding: 0 0 12px 185px;}
+	.recruitListdd img{margin-bottom:15px;}
+	.recruit_img{margin-top:30px;}
 	.buttonBox{}
 	.square_btn{
 	    display: inline-block;
@@ -584,6 +560,16 @@ h2:after{
 
 	.working_text {
 		text-align: center;
+	}
+
+	.working_text1 {
+		margin-left:350px;
+		text-align:center;
+	}
+
+	.working1{
+		width:60%;
+		font-size:1.2em;
 	}
 
 	img.image1 {
