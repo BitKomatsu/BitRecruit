@@ -325,7 +325,7 @@ h2 {
 	.recruitTitle { font-size: 50px; text-align: center; background: lightgray; padding-top: 25px; padding-bottom: 25px;}
 	.recruitBox{width:75%; display: block; margin:auto; margin:50px auto; padding:auto;}
 	.recruitList{color: #002b62; font-size: 18px; font-weight: bold; float: left;}
-	.recruitListdd {border-bottom: 2px solid #D7E8F0; margin-bottom: 15px; margin-left: 0; padding: 0 0 12px 185px;}
+	.recruitListdd {border-bottom: 2px solid #D7E8F0; margin-bottom: 35px; margin-left: 0; padding: 0 0 12px 185px;}
 	.recruitListdd_last {margin-bottom: 15px; margin-left: 0; padding: 0 0 12px 185px;}
 	.recruitListdd img{margin-bottom:15px;}
 	.recruit_img{margin-top:30px;}
@@ -383,7 +383,10 @@ h2 {
 	.container {
 		display: table-cell;
 		vertical-align: middle;
-		padding-left: 1%;
+		padding-left: 3%;
+		background-color: #ffffff69;
+		font-size: 1.1em;
+		font-weight: 500;
 	}
 
 	.partner {
@@ -773,6 +776,47 @@ h2 {
 	/*===============================================
 	●会社概要
 	================================================*/
+		/********** タブレット用 **********/
+	.outline_title {
+		text-align:center;
+	}
+
+	.outline_wrapper {
+		height: 10%;
+		width: 100%;
+		margin: 0.5% 0;
+		display: table;
+	}
+
+	.m_6{
+		margin-bottom:6px;
+	}
+
+	.outline_hr {
+	  border-top: 1px solid #D8D8D8;
+	  width: 100%;
+	}
+
+	.outline_index {
+		width: 20%;
+		background-color: #EFFBFB;
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 1%;
+	}
+
+	.container {
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 2%;
+		background-color: #ffffff69;
+		font-size: 1.0em;
+		font-weight: 500;
+	}
+
+	.partner {
+		padding-bottom: 2%;
+	}
 	
 	
 	.overview{
